@@ -1,6 +1,6 @@
-import CLOTH from './crafts/categories/cloth.category'
-import FURNITURE from './crafts/categories/furniture.category'
-import OBJECT from './crafts/categories/object.category'
+import CLOTH from './categories/cloth.category'
+import FURNITURE from './categories/furniture.category'
+import OBJECT from './categories/object.category'
 
 export default {
   ...CLOTH,

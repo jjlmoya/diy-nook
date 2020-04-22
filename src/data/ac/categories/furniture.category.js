@@ -6,7 +6,7 @@ export default {
   },
   TREE: {
     id: 'tree',
-    name: 'Árboles',
+    name: 'Botánica',
     image: ''
   },
   BED: {
