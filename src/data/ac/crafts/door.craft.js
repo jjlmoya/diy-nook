@@ -33,7 +33,7 @@ export default [
     image: 'FtrDoorOrnamentIron.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.IRON,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -44,7 +44,7 @@ export default [
     image: 'FtrDoorOrnamentLog.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.LOG,
     materials: [{
       ...MATERIALS.WOOD,
@@ -58,7 +58,7 @@ export default [
     image: 'FtrDoorOrnamentPaw.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.WOOD,
@@ -69,7 +69,7 @@ export default [
     image: 'FtrDoorOrnamentWreathAnemone.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.WIND_ORANGE,
@@ -86,7 +86,7 @@ export default [
     image: 'FtrDoorOrnamentWreathAnemoneMix.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.WIND_BLUE,
@@ -103,7 +103,7 @@ export default [
     image: 'FtrDoorOrnamentWreathAnemoneRare.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.WIND_PURPLE,
@@ -114,7 +114,7 @@ export default [
     image: 'FtrDoorOrnamentWreathBranch.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.BRANCH,
@@ -125,7 +125,7 @@ export default [
     image: 'FtrDoorOrnamentWreathCosmos.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.COSMOS_RED,
@@ -142,7 +142,7 @@ export default [
     image: 'FtrDoorOrnamentWreathCosmosMix.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.COSMOS_RED,
@@ -159,7 +159,7 @@ export default [
     image: 'FtrDoorOrnamentWreathCosmosRare.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.COSMOS_BLACK,
@@ -170,7 +170,7 @@ export default [
     image: 'FtrDoorOrnamentWreathFruit.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.PEACH,
@@ -193,7 +193,7 @@ export default [
     image: 'FtrDoorOrnamentWreathHyacinth.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.JACINT_WHITE,
@@ -210,7 +210,7 @@ export default [
     image: 'FtrDoorOrnamentWreathHyacinthMix.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.JACINT_BLUE,
@@ -227,7 +227,7 @@ export default [
     image: 'FtrDoorOrnamentWreathHyacinthRare.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.JACINT_PURPLE,
@@ -238,7 +238,7 @@ export default [
     image: 'FtrDoorOrnamentWreathIce.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.ICE,
     materials: []
   }, {
@@ -246,7 +246,7 @@ export default [
     image: 'FtrDoorOrnamentWreathMum.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.MUM_RED,
@@ -263,7 +263,7 @@ export default [
     image: 'FtrDoorOrnamentWreathMumMix.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.MUM_ORANGE,
@@ -280,7 +280,7 @@ export default [
     image: 'FtrDoorOrnamentWreathMumRare.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.MUM_GREEN,
@@ -291,7 +291,7 @@ export default [
     image: 'FtrDoorOrnamentWreathMushroom.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.MUSHROOM,
     materials: []
   }, {
@@ -299,7 +299,7 @@ export default [
     image: 'FtrDoorOrnamentWreathOrnament.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.ICE,
     materials: []
   }, {
@@ -307,7 +307,7 @@ export default [
     image: 'FtrDoorOrnamentWreathPansy.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.VIOLET_WHITE,
@@ -324,7 +324,7 @@ export default [
     image: 'FtrDoorOrnamentWreathPansyMix.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.VIOLET_ORANGE,
@@ -341,7 +341,7 @@ export default [
     image: 'FtrDoorOrnamentWreathPansyRare.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.VIOLET_BLUE,
@@ -355,7 +355,7 @@ export default [
     image: 'FtrDoorOrnamentWreathRose.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.ROSE_WHITE,
@@ -372,7 +372,7 @@ export default [
     image: 'FtrDoorOrnamentWreathRoseGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.ROSE_GOLD,
@@ -383,7 +383,7 @@ export default [
     image: 'FtrDoorOrnamentWreathRoseMix.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.ROSE_PINK,
@@ -400,7 +400,7 @@ export default [
     image: 'FtrDoorOrnamentWreathRoseRare.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.ROSE_PURPLE,
@@ -414,7 +414,7 @@ export default [
     image: 'FtrDoorOrnamentWreathRoseUrtraRare.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.ROSE_BLUE,
@@ -425,7 +425,7 @@ export default [
     image: 'FtrDoorOrnamentWreathShell.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.SHELL,
     materials: [
       {
@@ -457,7 +457,7 @@ export default [
     image: 'FtrDoorOrnamentWreathTulip.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.TULIP_RED,
@@ -474,7 +474,7 @@ export default [
     image: 'FtrDoorOrnamentWreathTulipMix.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.TULIP_PINK,
@@ -491,7 +491,7 @@ export default [
     image: 'FtrDoorOrnamentWreathTulipRare.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.TULIP_BLACK,
@@ -502,7 +502,7 @@ export default [
     image: 'FtrDoorOrnamentWreathYuri.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.LILY_WHITE,
@@ -519,7 +519,7 @@ export default [
     image: 'FtrDoorOrnamentWreathYuriMix.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.LILY_PINK,
@@ -536,7 +536,7 @@ export default [
     image: 'FtrDoorOrnamentWreathYuriRare.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.LILY_BLACK,
@@ -547,7 +547,7 @@ export default [
     image: 'FtrDoorPlateBone.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DOOR],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.FLEXIBLE_WOOD,

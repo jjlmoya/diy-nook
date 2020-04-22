@@ -8,7 +8,7 @@ export default [
     image: 'FtrShellArch.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.FURNITURE],
+    category: [CATEGORY.ARK, CATEGORY.EXTERIOR],
     serie: SERIES.SHELL,
     materials: [
       {
@@ -41,7 +41,7 @@ export default [
     image: 'FtrShellBedW.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.BED],
     serie: SERIES.SHELL,
     materials: [{
       ...MATERIALS.GIANT_CLAM,
@@ -58,7 +58,7 @@ export default [
     image: 'FtrShellFountain.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.SHELL,
     materials: [{
       ...MATERIALS.GIANT_CLAM,
@@ -72,7 +72,7 @@ export default [
     image: 'FtrShellLamp.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.LAMP],
     serie: SERIES.SHELL,
     materials: [
       {
@@ -88,7 +88,7 @@ export default [
     image: 'FtrShellMusic.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.MUSIC],
     serie: SERIES.SHELL,
     materials: [
       {
@@ -104,7 +104,7 @@ export default [
     image: 'FtrShellScreen.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.SPLITER],
     serie: SERIES.SHELL,
     materials: [
       {
@@ -120,7 +120,7 @@ export default [
     image: 'FtrShellStoolS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.SHELL,
     materials: [
       {
@@ -132,7 +132,7 @@ export default [
     image: 'FtrShellTableL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.SHELL,
     materials: [{
       ...MATERIALS.DOLLAR,
@@ -146,7 +146,7 @@ export default [
     image: 'RugOtherShellM00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CARPET],
     serie: SERIES.SHELL,
     materials: [{
       ...MATERIALS.GIANT_CLAM,

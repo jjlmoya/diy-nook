@@ -50,6 +50,9 @@ export default {
     if (globalOwned) {
       globalOwned = JSON.parse(globalOwned)
       this.owned = globalOwned.findIndex(e => e === this.image) > -1
+    } else {
+      localStorage.owned = '[]'
+      this.owned = false
     }
   },
   methods: {

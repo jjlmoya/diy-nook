@@ -1,6 +1,5 @@
 import MATERIALS from '../materials.data'
 import SERIES from '../series.data'
-import CATEGORY from '../category.data'
 
 export default [
   {
@@ -8,7 +7,7 @@ export default [
     image: 'BridgeLogReserveKit.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.FURNITURE],
+    category: [/**/],
     serie: SERIES.WOODEN,
     materials: [
       {
@@ -29,7 +28,7 @@ export default [
     image: 'CampsiteReserveKit.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [/**/],
     serie: SERIES.WOODEN,
     materials: [
       {

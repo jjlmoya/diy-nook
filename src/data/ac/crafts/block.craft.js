@@ -22,7 +22,7 @@ export default [
     image: 'FtrBlockBrick.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE_OBJECT],
     serie: SERIES.BLOCK,
     materials: [{
       ...MATERIALS.FLEXIBLE_WOOD,
@@ -33,7 +33,7 @@ export default [
     image: 'FtrBlockChairL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.BLOCK,
     materials: [{
       ...MATERIALS.FURNITURE('Juguete de Construcciones'),
@@ -47,7 +47,7 @@ export default [
     image: 'FtrBlockChairS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.BLOCK,
     materials: [{
       ...MATERIALS.FURNITURE('Juguete de Construcciones'),
@@ -61,7 +61,7 @@ export default [
     image: 'FtrBlockChest.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHEST],
     serie: SERIES.BLOCK,
     materials: [{
       ...MATERIALS.FURNITURE('Juguete de Construcciones'),
@@ -76,7 +76,7 @@ export default [
     image: 'FtrBlockClock.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CLOCK],
     serie: SERIES.BLOCK,
     materials: [{
       ...MATERIALS.FURNITURE('Juguete de Construcciones'),
@@ -94,7 +94,7 @@ export default [
     image: 'FtrBlockCompo.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.MUSIC],
     serie: SERIES.BLOCK,
     materials: [{
       ...MATERIALS.FURNITURE('Juguete de Construcciones'),
@@ -111,7 +111,7 @@ export default [
     image: 'FtrBlockShelf.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.SHELVE],
     serie: SERIES.BLOCK,
     materials: [{
       ...MATERIALS.FURNITURE('Juguete de Construcciones'),
@@ -125,7 +125,7 @@ export default [
     image: 'FtrBlockStoolS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.BLOCK,
     materials: [{
       ...MATERIALS.FURNITURE('Juguete de Construcciones'),
@@ -139,7 +139,7 @@ export default [
     image: 'FtrBlockTableL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.BLOCK,
     materials: [{
       ...MATERIALS.FURNITURE('Juguete de Construcciones'),

@@ -10,12 +10,19 @@ export default class CraftingService {
       const filtered = this.crafts.filter(craft => craft.serie && craft.serie.id === this.serie)
       this.crafts = filtered
     }
+    if (this.category) {
+      this.crafts = this.crafts.filter(craft => this.hasCategory(this.category, craft.category))
+    }
     this.ownedCount = this.getOwnedsByCrafts()
     this.currentMaxItems = this.filtered ? this.filtered.length : this.maxItem
   }
 
-  hasOwn (entry, owneds) {
+  hasOwn (entry, owneds, property) {
     return !!owneds.find(owned => owned === entry)
+  }
+
+  hasCategory (entry, owneds) {
+    return !!owneds.find(owned => owned && owned.id === entry)
   }
 
   getOwnedsByCrafts () {

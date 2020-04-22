@@ -34,43 +34,43 @@ export default [
     serie: SERIES.MUSHROOM,
     materials: UNKNOWN
   }, {
-    name: 'FtrMushroomLamp',
+    name: 'Lámpara Seta',
     image: 'FtrMushroomLamp.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.LAMP],
     serie: SERIES.MUSHROOM,
     materials: UNKNOWN
   }, {
-    name: 'FtrMushroomParasol',
+    name: 'Parasol Seta',
     image: 'FtrMushroomParasol.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
     serie: SERIES.MUSHROOM,
     materials: UNKNOWN
   }, {
-    name: 'FtrMushroomPulpwood',
+    name: 'Tocón con Setas',
     image: 'FtrMushroomPulpwood.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.MUSHROOM,
     materials: UNKNOWN
   }, {
-    name: 'FtrMushroomScreen',
+    name: 'Separador de Setas',
     image: 'FtrMushroomScreen.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.SPLITER],
     serie: SERIES.MUSHROOM,
     materials: UNKNOWN
   }, {
-    name: 'FtrMushroomTableL',
+    name: 'Mesa de Setas',
     image: 'FtrMushroomTableL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.MUSHROOM,
     materials: UNKNOWN
   }

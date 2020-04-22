@@ -8,7 +8,7 @@ export default [
     image: 'FtrGoldbar.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -19,15 +19,18 @@ export default [
     image: 'FtrGoldbench.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.GOLD,
-    materials: []
+    materials: [{
+      ...MATERIALS.GOLD_NUGGET,
+      quantity: 5
+    }]
   }, {
     name: 'Candelabro de Oro',
     image: 'FtrGoldCandlestand.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -38,7 +41,7 @@ export default [
     image: 'FtrGoldCoffin.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -49,7 +52,7 @@ export default [
     image: 'FtrGoldDishes.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -60,7 +63,7 @@ export default [
     image: 'FtrGoldWC.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOILET, CATEGORY.FURNITURE],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -71,7 +74,7 @@ export default [
     image: 'FtrInsectKabutomushiGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -82,7 +85,7 @@ export default [
     image: 'FtrManekinekoGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -96,7 +99,7 @@ export default [
     image: 'ShoesKneeKnightGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.SHOES],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -107,7 +110,7 @@ export default [
     image: 'TopsTexOnepieceOverallLPlatearmorGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.ONE_PIECE],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -118,7 +121,7 @@ export default [
     image: 'CapFullfaceKnightGold.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.CLOTH],
+    category: [CATEGORY.CLOTH, CATEGORY.CAP],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -129,7 +132,7 @@ export default [
     image: 'FtrFishArowanaGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE_OBJECT],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -140,7 +143,7 @@ export default [
     image: 'FtrGearWallGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.WALL_OBJECT],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,

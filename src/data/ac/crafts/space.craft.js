@@ -22,7 +22,7 @@ export default [
     image: 'FtrStarDecorationWall.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL_OBJECT],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -33,7 +33,7 @@ export default [
     image: 'FtrStarLamp.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.LAMP],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -44,7 +44,7 @@ export default [
     image: 'FtrStarMoonChairL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -59,7 +59,7 @@ export default [
     image: 'FtrSpacecraft.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -73,7 +73,7 @@ export default [
     image: 'FtrSpacesuit.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,

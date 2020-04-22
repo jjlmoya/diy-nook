@@ -1,13 +1,24 @@
 <template>
-    <div class="filter-select">
-        <div class="filter-select__tabs">
-           <router-link :to="{ path: '/'}" class="filter-select__tab"  :class="[!selected? 'is-active' : '']">
-            Todos
-          </router-link>
-          <router-link v-for="serie in series" :key="serie.id" :to="{ name: 'serie', params: { id: serie.id }}" :class="[selected === serie.id ? 'is-active' : '']" class="filter-select__tab">
-            <span>{{ serie.name }}</span>
-          </router-link>
-        </div>
+    <div class="filter" @click="click">
+      <button class="filter__button"><img
+      src="https://i.pinimg.com/originals/60/55/a4/6055a4402514d92f73f28f0b72d1555e.png">
+      </button>
+      <div class="filter-select">
+          <div class="filter-select__tabs">
+            <router-link
+                :to="{ path: '/',  query: {category: category}}" class="filter-select__tab"
+                :class="[!selected? 'is-active' : '']">
+              Todos
+            </router-link>
+            <router-link
+              v-for="serie in series"
+              :key="serie.id"
+              :to="{ name: 'serie', params: { id: serie.id},  query: {category: category}}"
+              :class="[selected === serie.id ? 'is-active' : '']" class="filter-select__tab">
+              <span>{{ serie.name }}</span>
+            </router-link>
+          </div>
+      </div>
     </div>
 </template>
 
@@ -24,6 +35,13 @@ export default {
     selected: {
       type: String,
       default: ''
+    },
+    category: {
+      type: String,
+      default: ''
+    },
+    click: {
+      type: Function
     }
   },
   data () {
@@ -34,10 +52,6 @@ export default {
   methods: {
     getSeries () {
       return new SeriesService().getSeries()
-    },
-    onChangeSeries (event) {
-      this.$router.push({ name: 'serie', params: { id: event.target.value } })
-      this.selected = event.target.value
     }
   }
 }

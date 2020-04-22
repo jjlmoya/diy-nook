@@ -24,7 +24,7 @@ export default [{
   image: 'FtrZodiacAries.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
   serie: SERIES.ZODIAC,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -44,7 +44,7 @@ export default [{
   image: 'FtrZodiacCancer.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
   serie: SERIES.ZODIAC,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -61,7 +61,7 @@ export default [{
   image: 'FtrZodiacCapricornus.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
   serie: SERIES.ZODIAC,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -78,7 +78,7 @@ export default [{
   image: 'FtrZodiacGemini.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.WARDROBE],
   serie: SERIES.ZODIAC,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -95,7 +95,7 @@ export default [{
   image: 'FtrZodiacLeo.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.WALL_OBJECT],
   serie: SERIES.ZODIAC,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -112,7 +112,7 @@ export default [{
   image: 'FtrZodiacLibra.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.ZODIAC,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -129,7 +129,7 @@ export default [{
   image: 'FtrZodiacPisces.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.ZODIAC,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -149,7 +149,7 @@ export default [{
   image: 'FtrZodiacSagittarius.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.WALL_OBJECT],
   serie: SERIES.ZODIAC,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -166,7 +166,7 @@ export default [{
   image: 'FtrZodiacScorpio.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.ZODIAC,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -179,11 +179,11 @@ export default [{
     quantity: '?'
   }]
 }, {
-  name: 'Fuente Tauro',
+  name: 'Bañera Tauro',
   image: 'FtrZodiacTaurus.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.ZODIAC,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -203,7 +203,7 @@ export default [{
   image: 'FtrZodiacVirgo.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.ZODIAC,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,

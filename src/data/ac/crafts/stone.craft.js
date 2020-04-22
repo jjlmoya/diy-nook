@@ -8,7 +8,7 @@ export default [
     image: 'FtrStoneChair.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.FURNITURE],
+    category: [CATEGORY.EXTERIOR, CATEGORY.CHAIR],
     serie: SERIES.STONE,
     materials: [{
       ...MATERIALS.STONE,
@@ -19,7 +19,7 @@ export default [
     image: 'FtrStonelantern.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR, CATEGORY.LAMP],
     serie: SERIES.STONE,
     materials: []
   }, {
@@ -27,8 +27,8 @@ export default [
     image: 'FtrStoneoven.png',
     height: 1,
     width: 1,
-    category: [],
-    serie: SERIES.STONE,
+    category: [CATEGORY.EXTERIOR],
+    serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.CLAY,
       quantity: 8
@@ -44,7 +44,7 @@ export default [
     image: 'FtrStoneTable.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR, CATEGORY.TABLE],
     serie: SERIES.STONE,
     materials: [{
       ...MATERIALS.STONE,
@@ -55,7 +55,7 @@ export default [
     image: 'FtrStonewaterbowl.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.STONE,
     materials: [{
       ...MATERIALS.STONE,
@@ -66,7 +66,7 @@ export default [
     image: 'FtrStonewaterbowlAutumun.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.STONE,
     materials: [{
       ...MATERIALS.STONE,
@@ -80,7 +80,7 @@ export default [
     image: 'FtrStonewaterbowlSakura.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.STONE,
     materials: [{
       ...MATERIALS.STONE,

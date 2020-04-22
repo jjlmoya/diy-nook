@@ -19,7 +19,7 @@ export default [
     image: 'FtrNutLamp.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.LAMP],
     serie: SERIES.MAPLE,
     materials: [{
       ...MATERIALS.PINECONE,
@@ -29,11 +29,11 @@ export default [
       quantity: 4
     }]
   }, {
-    name: 'Jugue de Bellotas',
+    name: 'Juguete de Bellotas',
     image: 'FtrNutMobile.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.MAPLE,
     materials: [{
       ...MATERIALS.BRANCH,
@@ -50,7 +50,7 @@ export default [
     image: 'FtrNutTreeL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TREE, CATEGORY.EXTERIOR],
     serie: SERIES.MAPLE,
     materials: []
   }, {
@@ -58,7 +58,7 @@ export default [
     image: 'FtrNutTreeS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR, CATEGORY.TREE],
     serie: SERIES.MAPLE,
     materials: [{
       ...MATERIALS.SOLID_WOOD,

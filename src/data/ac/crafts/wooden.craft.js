@@ -7,7 +7,7 @@ export default [{
   image: 'FtrWoodenBedS.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.FURNITURE],
+  category: [CATEGORY.FURNITURE, CATEGORY.BED],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -18,7 +18,7 @@ export default [{
   image: 'FtrWoodenBedW.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.BED],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -29,7 +29,7 @@ export default [{
   image: 'FtrWoodenChairS.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -40,7 +40,7 @@ export default [{
   image: 'FtrWoodenChest.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.CHEST],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -51,7 +51,7 @@ export default [{
   image: 'FtrWoodenCloset.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.WARDROBE],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -62,15 +62,21 @@ export default [{
   image: 'FtrWoodenMirror.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.MIRROR],
   serie: SERIES.WOODEN,
-  materials: []
+  materials: [{
+    ...MATERIALS.WOOD,
+    quantity: 5
+  }, {
+    ...MATERIALS.IRON_NUGGET,
+    quantity: 1
+  }]
 }, {
-  name: 'Espejito de Mesa de MAdera',
+  name: 'Espejito de Mesa de Madera',
   image: 'FtrWoodenMirrorS.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT, CATEGORY.MIRROR],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -84,7 +90,7 @@ export default [{
   image: 'FtrWoodenStoolS.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -95,7 +101,7 @@ export default [{
   image: 'FtrWoodenTableL.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -106,7 +112,7 @@ export default [{
   image: 'FtrWoodenTableM.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -117,7 +123,7 @@ export default [{
   image: 'FtrWoodenTableMini.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -128,7 +134,7 @@ export default [{
   image: 'FtrWoodenTableS.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,

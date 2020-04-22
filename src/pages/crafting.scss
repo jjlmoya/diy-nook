@@ -4,6 +4,22 @@
   justify-content: center;
   grid-template-columns: repeat(auto-fill, minmax(170px, max-content));
   padding: 5px;
+  &__empty {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    color: #845a25;
+    a {
+      color: #ec880e;
+    }
+  }
+
 }
 .crafting-counter {
   font-weight: bold;

@@ -1,12 +1,20 @@
 <template>
-    <div class="l-default l-default--background" :class="`${active ? 'is-active' : ''}`">
+    <div class="l-default l-default--background">
         <div class="l-default__main">
             <div class="l-default__content">
-                <Select :selected="selected" />
+                <div class="l-default__filters" style="margin: 10px 18px;">
+                  <Select :selected="selected"
+                          :category="category"
+                          :click="toggleSeries"
+                          :fold="activeSeries ? 'is-active' : ''"/>
+                  <Category :click="toggleCategories"
+                    :selected="selected"
+                    :cat="category"
+                    :fold="activeCategories ? 'is-active' : ''" />
+                </div>
                 <slot />
             </div>
         </div>
-        <div class="l-default__toggle" @click="toggle"></div>
         <Footer />
     </div>
 </template>
@@ -15,27 +23,41 @@
 <script>
 import Footer from '../components/Footer/Default.vue'
 import Select from '../components/Select/Select.vue'
+import Category from '../components/Filter/Category.vue'
 
 export default {
   name: 'DefaultLayout',
   components: {
     Select,
-    Footer
+    Footer,
+    Category
   },
   props: {
     selected: {
+      type: String,
+      default: ''
+    },
+    category: {
       type: String,
       default: ''
     }
   },
   data () {
     return {
-      active: true
+      activeCategories: false,
+      activeSeries: false
     }
   },
   methods: {
-    toggle () {
-      this.active = !this.active
+    toggleSeries () {
+      this.activeCategories = false
+      this.activeSeries = !this.activeSeries
+      document.body.classList.toggle('overflow', this.activeSeries || this.activeCategories)
+    },
+    toggleCategories () {
+      this.activeSeries = false
+      this.activeCategories = !this.activeCategories
+      document.body.classList.toggle('overflow', this.activeSeries || this.activeCategories)
     }
   }
 }

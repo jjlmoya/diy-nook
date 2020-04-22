@@ -22,7 +22,7 @@ export default [
     image: 'FtrGardenrock.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.STONE,
     materials: [{
       ...MATERIALS.STONE,
@@ -33,7 +33,7 @@ export default [
     image: 'FtrGardenrockLow.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.STONE,
     materials: [{
       ...MATERIALS.STONE,
@@ -44,7 +44,7 @@ export default [
     image: 'FtrGardenrockMoss.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.STONE,
     materials: [{
       ...MATERIALS.STONE,
@@ -58,7 +58,7 @@ export default [
     image: 'FtrGardenrockTall.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.STONE,
     materials: [{
       ...MATERIALS.STONE,
@@ -69,7 +69,7 @@ export default [
     image: 'FtrGardenTableNatural.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.GARDEN,
     materials: [{
       ...MATERIALS.SOLID_WOOD,
@@ -83,7 +83,7 @@ export default [
     image: 'FtrGardenTableSNatural.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.GARDEN,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -97,7 +97,7 @@ export default [
     image: 'FtrGardenwagon.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.JACINT_WHITE,

@@ -8,7 +8,7 @@ export default [
     image: 'RoomTexFloorAutumun00.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.WALL_FLOOR],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.MAPLE,
     materials: [{
       ...MATERIALS.MAPLE,
@@ -25,7 +25,7 @@ export default [
     image: 'RoomTexFloorBamboo00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU,
@@ -36,7 +36,7 @@ export default [
     image: 'RoomTexFloorBasement00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.STONE,
@@ -47,7 +47,7 @@ export default [
     image: 'RoomTexFloorBill00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.BELLS,
@@ -58,7 +58,7 @@ export default [
     image: 'RoomTexFloorGarbage00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.TRASH_BOOT,
@@ -75,7 +75,7 @@ export default [
     image: 'RoomTexFloorGelande00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -86,7 +86,7 @@ export default [
     image: 'RoomTexFloorGold00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
@@ -97,7 +97,7 @@ export default [
     image: 'RoomTexFloorHoney00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.WASP_NEST,
@@ -108,7 +108,7 @@ export default [
     image: 'RoomTexFloorJungle00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.HERB,
@@ -122,7 +122,7 @@ export default [
     image: 'RoomTexFloorLawn00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.GRASS,
     materials: [{
       ...MATERIALS.HERB,
@@ -133,7 +133,7 @@ export default [
     image: 'RoomTexFloorLunar00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -147,7 +147,7 @@ export default [
     image: 'RoomTexFloorMushForest00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.MUSHROOM,
     materials: [{
       ...MATERIALS.TRUFFLE,
@@ -167,7 +167,7 @@ export default [
     image: 'RoomTexFloorSand00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.SHELL,
     materials: [{
       ...MATERIALS.VENUS,
@@ -190,7 +190,7 @@ export default [
     image: 'RoomTexFloorSandStar00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -204,7 +204,7 @@ export default [
     image: 'RoomTexFloorSteel00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.IRON,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -215,7 +215,7 @@ export default [
     image: 'RoomTexWallApple00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.APPLE,
@@ -226,7 +226,7 @@ export default [
     image: 'RoomTexWallBamboo00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU,
@@ -237,7 +237,7 @@ export default [
     image: 'RoomTexWallBasement00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.STONE,
@@ -248,7 +248,7 @@ export default [
     image: 'RoomTexWallCedar00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: []
   }, {
@@ -256,7 +256,7 @@ export default [
     image: 'RoomTexWallCherry00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.CHERRY,
@@ -267,7 +267,7 @@ export default [
     image: 'RoomTexWallChikurin00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -281,7 +281,7 @@ export default [
     image: 'RoomTexWallFireWood00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: []
   }, {
@@ -289,7 +289,7 @@ export default [
     image: 'RoomTexWallFusumaGorgeous00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: []
   }, {
@@ -297,7 +297,7 @@ export default [
     image: 'RoomTexWallGarbage00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.TRASH_BOOT,
@@ -314,7 +314,7 @@ export default [
     image: 'RoomTexWallGold00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.GOLD,
     materials: []
   }, {
@@ -322,7 +322,7 @@ export default [
     image: 'RoomTexWallHerringbone00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.BAMBOO,
     materials: [
       {
@@ -334,7 +334,7 @@ export default [
     image: 'RoomTexWallHerringbone01.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.FLEXIBLE_WOOD,
@@ -345,7 +345,7 @@ export default [
     image: 'RoomTexWallHoney00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.WASP_NEST,
@@ -356,7 +356,7 @@ export default [
     image: 'RoomTexWallIceFloe00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -367,7 +367,7 @@ export default [
     image: 'RoomTexWallJukai00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.HERB,
@@ -381,7 +381,7 @@ export default [
     image: 'RoomTexWallJungle00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.HERB,
@@ -401,7 +401,7 @@ export default [
     image: 'RoomTexWallLibrary00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.FURNITURE('Libro'),
@@ -412,7 +412,7 @@ export default [
     image: 'RoomTexWallLibrary01.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.FURNITURE('Revista'),
@@ -423,7 +423,7 @@ export default [
     image: 'RoomTexWallLog00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.LOG,
     materials: []
   }, {
@@ -431,7 +431,7 @@ export default [
     image: 'RoomTexWallMixPlankWood00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.BLOCK,
     materials: [{
       ...MATERIALS.FLEXIBLE_WOOD,
@@ -442,7 +442,7 @@ export default [
     image: 'RoomTexWallMixPlankWood01.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.LOG,
     materials: [{
       ...MATERIALS.SOLID_WOOD,
@@ -453,7 +453,7 @@ export default [
     image: 'RoomTexWallMixwood00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.WOODEN,
     materials: [{
       ...MATERIALS.WOOD,
@@ -464,7 +464,7 @@ export default [
     image: 'RoomTexWallMush00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.MUSHROOM,
     materials: [{
       ...MATERIALS.ELEGANT_MUSHROOM,
@@ -484,7 +484,7 @@ export default [
     image: 'RoomTexWallMushForest00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.MUSHROOM,
     materials: [{
       ...MATERIALS.ELEGANT_MUSHROOM,
@@ -507,7 +507,7 @@ export default [
     image: 'RoomTexWallOrange00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.ORANGE,
@@ -518,7 +518,7 @@ export default [
     image: 'RoomTexWallPeach00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEACH,
@@ -529,7 +529,7 @@ export default [
     image: 'RoomTexWallPear00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEAR,
@@ -540,7 +540,7 @@ export default [
     image: 'RoomTexWallSnowCrystal00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -551,7 +551,7 @@ export default [
     image: 'RoomTexWallSteel00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.IRON,
     materials: []
   }, {
@@ -559,7 +559,7 @@ export default [
     image: 'RoomTexWallStone00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.STONE,
     materials: [{
       ...MATERIALS.STONE,
@@ -570,7 +570,7 @@ export default [
     image: 'RoomTexWallWildWood00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: []
   },
@@ -579,7 +579,7 @@ export default [
     image: 'RoomSpFloorFishTank00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.NOOK,
     materials: []
   }, {
@@ -587,7 +587,7 @@ export default [
     image: 'RoomSpFloorGalaxy00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -601,7 +601,7 @@ export default [
     image: 'RoomSpFloorIce00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -615,7 +615,7 @@ export default [
     image: 'RoomSpFloorIceFloe00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -626,7 +626,7 @@ export default [
     image: 'RoomSpFloorSF00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -640,7 +640,7 @@ export default [
     image: 'RoomSpFloorWater00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FLOOR],
     serie: SERIES.NOOK,
     materials: []
   }, {
@@ -648,7 +648,7 @@ export default [
     image: 'RoomSpWallAutumun00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.MAPLE,
     materials: [{
       ...MATERIALS.MAPLE,
@@ -662,7 +662,7 @@ export default [
     image: 'RoomSpWallFishTank00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
     materials: []
   }, {
@@ -670,7 +670,7 @@ export default [
     image: 'RoomSpWallGelande00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.ICE,
     materials: []
   }, {
@@ -678,7 +678,7 @@ export default [
     image: 'RoomSpWallIce00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.ICE,
     materials: []
   }, {
@@ -686,7 +686,7 @@ export default [
     image: 'RoomSpWallSF00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -700,7 +700,7 @@ export default [
     image: 'RoomSpWallStarPrint00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -714,7 +714,7 @@ export default [
     image: 'RoomSpWallStarSky00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -728,7 +728,7 @@ export default [
     image: 'RoomSpWallTropical00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.SHELL,
     materials: [{
       ...MATERIALS.VENUS,
@@ -751,7 +751,7 @@ export default [
     image: 'RoomSpWallXmas00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL],
     serie: SERIES.LIGHT,
     materials: []
   }

@@ -16,7 +16,7 @@ export default [
     image: 'FtrCardboardChairS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.CARDBOARD,
     materials: [{
       ...MATERIALS.FURNITURE('Caja de cartón'),
@@ -27,7 +27,7 @@ export default [
     image: 'FtrCardboardSofaL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.CARDBOARD,
     materials: [{
       ...MATERIALS.FURNITURE('Caja de cartón'),
@@ -38,7 +38,7 @@ export default [
     image: 'FtrCardboardTableL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.CARDBOARD,
     materials: [{
       ...MATERIALS.FURNITURE('Caja de cartón'),

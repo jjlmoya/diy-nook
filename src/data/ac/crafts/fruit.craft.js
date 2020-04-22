@@ -16,7 +16,7 @@ export default [
     image: 'FtrFruitsBedS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.BED],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEAR,
@@ -30,7 +30,7 @@ export default [
     image: 'FtrFruitsBox.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEAR,
@@ -44,7 +44,7 @@ export default [
     image: 'FtrFruitsChairApple.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.APPLE,
@@ -58,7 +58,7 @@ export default [
     image: 'FtrFruitsChairPeach.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEAR,
@@ -72,7 +72,7 @@ export default [
     image: 'FtrFruitsClockW.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL_OBJECT, CATEGORY.CLOCK],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.ORANGE,
@@ -86,7 +86,7 @@ export default [
     image: 'FtrFruitsClosetLR.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.WARDROBE],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEAR,
@@ -100,7 +100,7 @@ export default [
     image: 'FtrFruitsLampW.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.LAMP],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.CHERRY,
@@ -114,7 +114,7 @@ export default [
     image: 'FtrFruitsMusic.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.MUSIC],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.CHERRY_PETALS,
@@ -128,7 +128,7 @@ export default [
     image: 'FtrFruitsTableS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.ORANGE,
@@ -142,7 +142,7 @@ export default [
     image: 'FtrFruitsTV.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.APPLE,
@@ -156,7 +156,7 @@ export default [
     image: 'FtrFruitswater.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.FRUIT,
     materials: [
       {
@@ -186,7 +186,7 @@ export default [
     image: 'RugOtherPearM00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CARPET],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEAR,
@@ -197,7 +197,7 @@ export default [
     image: 'TopsTexOnepieceAlineNPear0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.ONE_PIECE],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEAR,
@@ -208,62 +208,62 @@ export default [
     image: 'RugOtherAppleM00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CARPET],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.APPLE,
       quantity: 7
     }]
   }, {
-    name: 'Top Manzana',
+    name: 'Vestido Manzana',
     image: 'TopsTexOnepieceAlineNApple0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.FULL],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.APPLE,
       quantity: 8
     }]
   }, {
-    name: 'Alfombra Melocotón',
+    name: 'Vestido Melocotón',
     image: 'TopsTexOnepieceAlineNPeach0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.ONE_PIECE],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEAR,
       quantity: 7
     }]
   }, {
-    name: 'Top Melocotón',
+    name: 'Alfombra Melocotón',
     image: 'RugOtherPeachM00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CARPET],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEACH,
       quantity: 8
     }]
   }, {
-    name: 'Top Cereza',
+    name: 'Vestido Cereza',
     image: 'TopsTexOnepieceAlineNCherry0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.ONE_PIECE],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.CHERRY,
       quantity: 8
     }]
   }, {
-    name: 'Top Naranja',
+    name: 'Vestido Naranja',
     image: 'TopsTexOnepieceAlineNOrange.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.ONE_PIECE],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.ORANGE,
@@ -274,7 +274,7 @@ export default [
     image: 'RugOtherCherryM00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CARPET],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.CHERRY_PETALS,
@@ -285,7 +285,7 @@ export default [
     image: 'RugOtherOrangeM00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CARPET],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.ORANGE,

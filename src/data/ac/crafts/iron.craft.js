@@ -8,7 +8,7 @@ export default [
     image: 'FtrIronClosetLR.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.FURNITURE],
+    category: [CATEGORY.FURNITURE, CATEGORY.WARDROBE],
     serie: SERIES.IRON,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -19,7 +19,7 @@ export default [
     image: 'FtrIronframe.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.IRON,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -30,7 +30,7 @@ export default [
     image: 'FtrIrongardenBench.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR, CATEGORY.CHAIR],
     serie: SERIES.GARDEN,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -41,7 +41,7 @@ export default [
     image: 'FtrIrongardenChair.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR, CATEGORY.CHAIR],
     serie: SERIES.GARDEN,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -52,7 +52,7 @@ export default [
     image: 'FtrIrongardenTable.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR, CATEGORY.TABLE],
     serie: SERIES.GARDEN,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -63,7 +63,7 @@ export default [
     image: 'FtrIronHanger.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.IRON,
     materials: []
   }, {
@@ -71,7 +71,7 @@ export default [
     image: 'FtrIronLampW.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL_OBJECT, CATEGORY.LAMP],
     serie: SERIES.IRON,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -85,7 +85,7 @@ export default [
     image: 'FtrIronShelf.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.WARDROBE],
     serie: SERIES.IRON,
     materials: []
   }, {
@@ -93,7 +93,7 @@ export default [
     image: 'FtrIronShelfW.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.WARDROBE],
     serie: SERIES.IRON,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -104,7 +104,7 @@ export default [
     image: 'FtrIronTableM.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.IRON,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -115,7 +115,7 @@ export default [
     image: 'FtrIronwoodBedS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.BED],
     serie: SERIES.UNIVERSIDAD,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -129,7 +129,7 @@ export default [
     image: 'FtrIronwoodChairS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.UNIVERSIDAD,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -143,7 +143,7 @@ export default [
     image: 'FtrIronwoodChest.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHEST],
     serie: SERIES.UNIVERSIDAD,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -157,7 +157,7 @@ export default [
     image: 'FtrIronwoodClockW.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOCK, CATEGORY.WALL_OBJECT],
     serie: SERIES.UNIVERSIDAD,
     materials: [
       {
@@ -173,7 +173,7 @@ export default [
     image: 'FtrIronwoodCupboard.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.KITCHEN],
     serie: SERIES.UNIVERSIDAD,
     materials: [
       {
@@ -192,7 +192,7 @@ export default [
     image: 'FtrIronwoodKitchen.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.KITCHEN],
     serie: SERIES.UNIVERSIDAD,
     materials: [{
       ...MATERIALS.WOOD,
@@ -212,7 +212,7 @@ export default [
     image: 'FtrIronwoodServingcart.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.SHELVE, CATEGORY.FURNITURE],
     serie: SERIES.UNIVERSIDAD,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -226,7 +226,7 @@ export default [
     image: 'FtrIronwoodTableL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.UNIVERSIDAD,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -240,7 +240,7 @@ export default [
     image: 'FtrIronwoodTableM.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.UNIVERSIDAD,
     materials: [
       {

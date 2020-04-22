@@ -7,7 +7,7 @@ const MOUTH_LEFT_GREEN = {
   image: 'AccessoryMouthLeafGreen.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CAP, CATEGORY.ACCESORY],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.HERB,

@@ -7,7 +7,7 @@ const CAP_COSTUME_SNOWBALL = {
   image: 'CapCostumeSnowball0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.ICE,
   materials: [{
     ...MATERIALS.ICE,
@@ -22,7 +22,7 @@ const CAP_COSTUME_STAR = {
   image: 'CapCostumeStar0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.SPACE,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -34,7 +34,7 @@ const CAP_KNIGHT_IRON = {
   image: 'CapFullfaceKnightIron.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.IRON,
   materials: [{
     ...MATERIALS.IRON_NUGGET,
@@ -46,7 +46,7 @@ const CAP_AJIRO_BEIGE = {
   image: 'CapHatAjiroBeige.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.HERB,
@@ -58,7 +58,7 @@ const CAP_APPLE = {
   image: 'CapHatApple0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FRUIT,
   materials: [{
     ...MATERIALS.APPLE,
@@ -70,7 +70,7 @@ const CAP_CHERRY = {
   image: 'CapHatCherry0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FRUIT,
   materials: [{
     ...MATERIALS.CHERRY,
@@ -82,7 +82,7 @@ const CAP_ORANGE = {
   image: 'CapHatOrange.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FRUIT,
   materials: [{
     ...MATERIALS.ORANGE,
@@ -94,7 +94,7 @@ const CAP_PEACH = {
   image: 'CapHatPeach0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FRUIT,
   materials: [{
     ...MATERIALS.PEACH,
@@ -106,7 +106,7 @@ const CAP_PEAR = {
   image: 'CapHatPear0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FRUIT,
   materials: [{
     ...MATERIALS.PEAR,
@@ -118,7 +118,7 @@ const CAP_SANDOGASA = {
   image: 'CapHatSandogasa0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.HERB,
@@ -130,7 +130,7 @@ const CAP_MASK_LEAF = {
   image: 'CapMaskLeaf0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.HERB,
@@ -143,7 +143,7 @@ const CAP_ANEMONE_1 = {
   image: 'CapOrnamentAnemone1.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FLOWER,
   materials: [
     {
@@ -166,7 +166,7 @@ const CAP_ANEMONE_2 = {
   image: 'CapOrnamentAnemone2.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FLOWER,
   materials: [
     {
@@ -184,7 +184,7 @@ const CAP_ANEMONE_3 = {
   image: 'CapOrnamentAnemone3.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FLOWER,
   materials: [
     {
@@ -198,7 +198,7 @@ const CAP_COSMOS_1 = {
   image: 'CapOrnamentCosmos1.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FLOWER,
   materials: [
     {
@@ -220,7 +220,7 @@ const CAP_COSMOS_2 = {
   image: 'CapOrnamentCosmos2.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FLOWER,
   materials: [
     {
@@ -238,7 +238,7 @@ const CAP_COSMOS_3 = {
   image: 'CapOrnamentCosmos3.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FLOWER,
   materials: [
     {
@@ -252,7 +252,7 @@ const CAP_HYACINTH_1 = {
   image: 'CapOrnamentHyacinth1.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FLOWER,
   materials: [
     {
@@ -274,7 +274,7 @@ const CAP_HYACINTH_2 = {
   image: 'CapOrnamentHyacinth2.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FLOWER,
   materials: [
     {
@@ -296,7 +296,7 @@ const CAP_HYACINTH_3 = {
   image: 'CapOrnamentHyacinth3.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.CAP],
   serie: SERIES.FLOWER,
   materials: [
     {

@@ -7,7 +7,7 @@ const BACKPACK_GRASS = {
   image: 'BagBackpackGrass0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.BAG],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.HERB,
@@ -20,7 +20,7 @@ const BACKPACK_WOOD = {
   image: 'BagBackpackWood0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.BAG],
   serie: SERIES.WOODEN,
   materials: []
 }
@@ -30,7 +30,7 @@ const BACKPACK_ACORN = {
   image: 'BagShoulderAcorn0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.BAG],
   serie: SERIES.MAPLE,
   materials: [{
     ...MATERIALS.ACORN,
@@ -43,7 +43,7 @@ const BACKPACK_MAPLE = {
   image: 'BagShoulderMaple0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.BAG],
   serie: SERIES.MAPLE,
   materials: [{
     ...MATERIALS.MAPLE,
@@ -56,7 +56,7 @@ const BACKPACK_SHELL = {
   image: 'BagShoulderShell0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH, CATEGORY.SHELL],
+  category: [CATEGORY.CLOTH, CATEGORY.BAG],
   serie: SERIES.SHELL,
   materials: [
     {
@@ -73,7 +73,7 @@ const BACKPACK_SNOW = {
   image: 'BagShoulderSnow0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.BAG],
   serie: SERIES.ICE,
   materials: [{
     ...MATERIALS.ICE,
@@ -86,7 +86,7 @@ const BACKPACK_STAR = {
   image: 'BagShoulderStar0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.BAG],
   serie: SERIES.SPACE,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,

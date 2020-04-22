@@ -8,7 +8,7 @@ export default [
     image: 'BagBackpackBasket0.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.CLOTH],
+    category: [CATEGORY.CLOTH, CATEGORY.BAG],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -20,7 +20,7 @@ export default [
     image: 'FtrBambooBall.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -31,7 +31,7 @@ export default [
     image: 'FtrBambooBasket.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -42,7 +42,7 @@ export default [
     image: 'FtrBambooCandle.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -56,7 +56,7 @@ export default [
     image: 'FtrBambooCarstop.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.SHELVE],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU,
@@ -67,7 +67,7 @@ export default [
     image: 'FtrBambooChairL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU,
@@ -78,7 +78,7 @@ export default [
     image: 'FtrBamboodrum.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.MUSIC, CATEGORY.TABLE_OBJECT],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -92,7 +92,7 @@ export default [
     image: 'FtrBambooFlowerwall.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL_OBJECT],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -103,7 +103,7 @@ export default [
     image: 'FtrBambooLamp.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.LAMP],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -114,7 +114,7 @@ export default [
     image: 'FtrBambooLunch.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.WALL_OBJECT],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU,
@@ -125,7 +125,7 @@ export default [
     image: 'FtrBambooMusic.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.MUSIC],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -139,7 +139,7 @@ export default [
     image: 'FtrBambooScreen.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.SPLITTER],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -153,7 +153,7 @@ export default [
     image: 'FtrBambooShelf.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.SHELVE, CATEGORY.FURNITURE],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU,
@@ -164,7 +164,7 @@ export default [
     image: 'FtrBambooshootLamp.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.LAMP],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -181,7 +181,7 @@ export default [
     image: 'FtrBambooSomen.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -195,7 +195,7 @@ export default [
     image: 'FtrBambooStool.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU,
@@ -206,7 +206,7 @@ export default [
     image: 'FtrBambooSurprisedbox.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.LAMP, CATEGORY.FURNITURE],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -218,7 +218,7 @@ export default [
     image: 'RugRectBambooM00.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CARPET],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -229,7 +229,7 @@ export default [
     image: 'RugRectBambooM01.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CARPET],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU,
@@ -240,7 +240,7 @@ export default [
     image: 'FtrBasketsteamer.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -251,7 +251,7 @@ export default [
     image: 'FtrIrori.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU,

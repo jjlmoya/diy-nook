@@ -93,7 +93,7 @@ export default [
     image: 'ToolAngling.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
     serie: SERIES.TOOLS,
     materials: [
       {
@@ -110,7 +110,8 @@ export default [
     image: 'ToolChangeStick.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.SPACE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -125,7 +126,8 @@ export default [
     image: 'ToolFishingrodGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [
       {
@@ -142,7 +144,8 @@ export default [
     image: 'ToolFishingrodWood.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [
       {
@@ -155,7 +158,8 @@ export default [
     image: 'ToolLadder.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [
       {
@@ -176,7 +180,8 @@ export default [
     image: 'ToolNet.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [
       {
@@ -189,7 +194,8 @@ export default [
     image: 'ToolNetGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [
       {
@@ -206,7 +212,8 @@ export default [
     image: 'ToolNetNormal.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [
       {
@@ -223,7 +230,8 @@ export default [
     image: 'ToolOcarina.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.MUSIC],
+
     serie: SERIES.TOOLS,
     materials: [
       {
@@ -236,7 +244,8 @@ export default [
     image: 'ToolPanpipe.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.MUSIC],
+
     serie: SERIES.TOOLS,
     materials: [
       {
@@ -249,7 +258,8 @@ export default [
     image: 'ToolScoop.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [{
       ...MATERIALS.WEAK_SHOVEL,
@@ -264,7 +274,8 @@ export default [
     image: 'ToolScoopGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [{
       ...MATERIALS.SHOVEL,
@@ -279,7 +290,8 @@ export default [
     image: 'ToolShovelWood.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [{
       ...MATERIALS.SOLID_WOOD,
@@ -290,7 +302,8 @@ export default [
     image: 'ToolSlingshot.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [{
       ...MATERIALS.SOLID_WOOD,
@@ -301,7 +314,8 @@ export default [
     image: 'ToolSlingshotGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [{
       ...MATERIALS.SLINGSHOT,
@@ -316,7 +330,8 @@ export default [
     image: 'ToolStickAnemones.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -330,7 +345,8 @@ export default [
     image: 'ToolStickBamboo.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU_SPRING,
@@ -345,7 +361,8 @@ export default [
     image: 'ToolStickChrysanthemum.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -359,7 +376,8 @@ export default [
     image: 'ToolStickCosmos.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -373,7 +391,8 @@ export default [
     image: 'ToolStickGolden.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -387,7 +406,8 @@ export default [
     image: 'ToolStickHyacinth.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -401,7 +421,8 @@ export default [
     image: 'ToolStickIron.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.IRON,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -416,7 +437,8 @@ export default [
     image: 'ToolStickMushroom.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.MUSHROOM,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -430,7 +452,8 @@ export default [
     image: 'ToolStickPansy.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -444,7 +467,8 @@ export default [
     image: 'ToolStickRose.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -458,7 +482,8 @@ export default [
     image: 'ToolStickShell.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.SHELL,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -472,7 +497,8 @@ export default [
     image: 'ToolStickSnow.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -486,7 +512,8 @@ export default [
     image: 'ToolStickTree.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.TOOLS,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -500,7 +527,8 @@ export default [
     image: 'ToolStickTulip.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -514,7 +542,8 @@ export default [
     image: 'ToolStickWood.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.TOOLS,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -525,7 +554,8 @@ export default [
     image: 'ToolStickYuri.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL, CATEGORY.WAND],
+
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -539,7 +569,8 @@ export default [
     image: 'ToolWatering.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [
       {
@@ -556,7 +587,8 @@ export default [
     image: 'ToolWateringGold.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [
       {
@@ -573,7 +605,8 @@ export default [
     image: 'ToolWateringWood.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TOOL],
+
     serie: SERIES.TOOLS,
     materials: [
       {

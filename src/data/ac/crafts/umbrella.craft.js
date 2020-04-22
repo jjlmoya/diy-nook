@@ -8,7 +8,7 @@ export default [
     image: 'FtrUmbrellastand.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.CLOTH],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.IRON_NUGGET,
@@ -20,7 +20,7 @@ export default [
     image: 'UmbrellaApple0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.APPLE,
@@ -31,7 +31,7 @@ export default [
     image: 'UmbrellaAutumn0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
     serie: SERIES.MAPLE,
     materials: [{
       ...MATERIALS.MAPLE,
@@ -42,7 +42,7 @@ export default [
     image: 'UmbrellaCherry0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.CHERRY_PETALS,
@@ -53,7 +53,7 @@ export default [
     image: 'UmbrellaLeaf0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
     serie: SERIES.GRASS,
     materials: [{
       ...MATERIALS.HERB,
@@ -64,7 +64,7 @@ export default [
     image: 'UmbrellaMushroom0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
     serie: SERIES.MUSHROOM,
     materials: [{
       ...MATERIALS.ELEGANT_MUSHROOM,
@@ -75,7 +75,7 @@ export default [
     image: 'UmbrellaOrange0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.ORANGE,
@@ -86,7 +86,7 @@ export default [
     image: 'UmbrellaPeach0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEACH,
@@ -97,7 +97,7 @@ export default [
     image: 'UmbrellaPear0.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEAR,

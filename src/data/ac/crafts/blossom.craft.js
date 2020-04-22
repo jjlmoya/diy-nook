@@ -7,7 +7,7 @@ const PILE_BLOSSOM = {
   image: 'FtrSakuraPetal.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.FURNITURE],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.BLOSSOM,
   materials: [
     {
@@ -22,7 +22,7 @@ const BLOSSOM_BONSAI = {
   image: 'FtrBonsaiSakura.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.FURNITURE, CATEGORY.OBJECT],
+  category: [CATEGORY.FURNITURE, CATEGORY.WALL_OBJECT],
   serie: SERIES.BLOSSOM,
   materials: [
     {
@@ -49,7 +49,7 @@ const BLOSSOM_FLOWERS = {
   image: 'FtrSakuraBranch.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.FURNITURE],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.BLOSSOM,
   materials: [
     {
@@ -68,11 +68,11 @@ const BLOSSOM_FLOWERS = {
 }
 
 const PICNIC_SET = {
-  name: 'Set de pícnic',
+  name: 'Set de pícnic de Cerezo',
   image: 'FtrSakuraPicnicset.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.FURNITURE, CATEGORY.OBJECT],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.BLOSSOM,
   materials: [
     {
@@ -87,7 +87,7 @@ const BLOSSOM_LANTERN = {
   image: 'FtrSakuraLantern.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.FURNITURE],
+  category: [CATEGORY.FURNITURE, CATEGORY.LAMP, CATEGORY.EXTERIOR],
   serie: SERIES.BLOSSOM,
   materials: [
     {
@@ -106,7 +106,7 @@ const BLOSSOM_CLOCK = {
   image: 'FtrSakuraClockW.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.WALL_OBJECT],
+  category: [CATEGORY.WALL_OBJECT, CATEGORY.WALL_OBJECT],
   serie: SERIES.BLOSSOM,
   materials: [
     {
@@ -200,7 +200,7 @@ const BLOSSOM_UMBRELLA = {
   image: 'UmbrellaCherryblossom0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
   serie: SERIES.BLOSSOM,
   materials: [
     {

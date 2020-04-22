@@ -1,18 +1,21 @@
 <template>
     <div class="p-ac p-ac--crafting">
-        <Layout>
+        <Layout :category="category">
             <div class="crafting-counter">
               <span class="crafting-counter__owned">{{this.owneds}}</span>/<span class="crafting-counter__current">{{this.current}}</span>
             </div>
             <div class="crafting-result">
                 <CraftCard @updateOwneds="updateOwneds"
-                    v-for="craft in crafts"
+                    v-for="craft in crafts.slice(0, limit)"
                     :key="craft.name"
                     :image="craft.image"
                     :name="craft.name"
                     :materials="craft.materials"
                     :owneds="owneds"
                 />
+                <div @click="expendLimits" class="craft-card craft-card__see-more" v-if="crafts.length > limit">
+                  <span class="text">Ver más</span>
+                </div>
             </div>
         </layout>
     </div>
@@ -34,17 +37,19 @@ export default {
     CraftCard
   },
   data () {
-    const crafting = this.getCrafts(this.$route.params.id)
+    const crafting = this.getCrafts(this.$route.query.category)
     return {
       crafts: crafting.crafts,
       maxItems: crafting.max,
       current: crafting.current,
-      owneds: crafting.owneds
+      owneds: crafting.owneds,
+      category: this.$route.query.category,
+      limit: 99
     }
   },
   methods: {
-    getCrafts (id) {
-      const craftObjet = new CraftingService({ serie: id })
+    getCrafts (category) {
+      const craftObjet = new CraftingService({ category: category })
       return {
         crafts: craftObjet.getCrafts(),
         max: craftObjet.getMaxObjets(),
@@ -54,16 +59,22 @@ export default {
     },
     updateOwneds (value) {
       this.owneds += value
-    }
-  },
-  watch: {
-    '$route.params.id' (newId, oldId) {
-      const crafting = this.getCrafts(newId)
+    },
+    expendLimits () {
+      this.limit = this.limit + 300
+    },
+    onUpdatePage (category) {
+      const crafting = this.getCrafts(category)
       this.crafts = crafting.crafts
-      this.id = newId
       this.maxItems = crafting.max
       this.current = crafting.current
       this.owneds = crafting.owneds
+      this.category = category
+    }
+  },
+  watch: {
+    '$route.query.category' (newCategory, oldCategory) {
+      this.onUpdatePage(this.$route.query.category)
     }
   }
 }

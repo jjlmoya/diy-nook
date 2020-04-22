@@ -19,7 +19,7 @@ export default [
     image: 'FtrLogBedW.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.BED],
     serie: SERIES.LOG,
     materials: [{
       ...MATERIALS.SOLID_WOOD,
@@ -30,7 +30,7 @@ export default [
     image: 'FtrLogClockWall.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.CLOCK, CATEGORY.WALL_OBJECT],
     serie: SERIES.LOG,
     materials: [{
       ...MATERIALS.SOLID_WOOD,
@@ -44,7 +44,7 @@ export default [
     image: 'FtrLogShelf.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.SHELVE],
     serie: SERIES.LOG,
     materials: []
   }, {
@@ -52,7 +52,7 @@ export default [
     image: 'FtrLogSofaL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.LOG,
     materials: [{
       ...MATERIALS.FURNITURE('Sillón Leño'),
@@ -63,7 +63,7 @@ export default [
     image: 'FtrLogSofaS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.LOG,
     materials: [{
       ...MATERIALS.SOLID_WOOD,
@@ -74,7 +74,7 @@ export default [
     image: 'FtrLogStoolL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.LOG,
     materials: [{
       ...MATERIALS.SOLID_WOOD,
@@ -85,7 +85,7 @@ export default [
     image: 'FtrLogStoolS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.LOG,
     materials: [{
       ...MATERIALS.SOLID_WOOD,
@@ -96,7 +96,7 @@ export default [
     image: 'FtrLogTableL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.LOG,
     materials: [{
       ...MATERIALS.SOLID_WOOD,
@@ -107,7 +107,7 @@ export default [
     image: 'FtrLogTableLRound.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.LOG,
     materials: [{
       ...MATERIALS.SOLID_WOOD,

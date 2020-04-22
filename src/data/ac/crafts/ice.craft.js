@@ -8,7 +8,7 @@ export default [
     image: 'FtrIceArt.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -22,7 +22,7 @@ export default [
     image: 'FtrIceBedW.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.FURNITURE],
+    category: [CATEGORY.FURNITURE, CATEGORY.BED],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -36,7 +36,7 @@ export default [
     image: 'FtrIceCandy.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -50,7 +50,7 @@ export default [
     image: 'FtrIceChairS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -64,7 +64,7 @@ export default [
     image: 'FtrIceCounter.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.DESKTOP],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -78,7 +78,7 @@ export default [
     image: 'FtrIceGate.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.ARK, CATEGORY.EXTERIOR],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -92,7 +92,7 @@ export default [
     image: 'FtrIcePillar.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -106,7 +106,7 @@ export default [
     image: 'FtrIceScreen.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.SPLITER],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -120,7 +120,7 @@ export default [
     image: 'FtrIceTableL.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,
@@ -134,7 +134,7 @@ export default [
     image: 'FtrIceTree.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TREE, CATEGORY.EXTERIOR],
     serie: SERIES.ICE,
     materials: [{
       ...MATERIALS.ICE,

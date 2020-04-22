@@ -7,7 +7,7 @@ export default [{
   image: 'BottomsTexSkirtBoxGrass0.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.CLOTH],
+  category: [CATEGORY.CLOTH, CATEGORY.ONE_PIECE],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.HERB,
@@ -18,7 +18,7 @@ export default [{
   image: 'BottomsTexSkirtBoxGrass1.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.CLOTH, CATEGORY.ONE_PIECE],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.HERB,
@@ -29,7 +29,7 @@ export default [{
   image: 'FishBait.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.CONSUMIBLE],
   serie: SERIES.TOOLS,
   materials: [{
     ...MATERIALS.JAPANESE_CLAM,
@@ -40,7 +40,7 @@ export default [{
   image: 'FtrAcorsticguitar.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.MUSIC],
   serie: SERIES.NOOK,
   materials: []
 }, {
@@ -48,7 +48,7 @@ export default [{
   image: 'FtrAlomapot.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.CLAY,
@@ -59,7 +59,7 @@ export default [{
   image: 'FtrBalancingtoy.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.BLOCK,
   materials: []
 }, {
@@ -67,7 +67,7 @@ export default [{
   image: 'FtrBarbell.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.IRON,
   materials: []
 }, {
@@ -75,7 +75,7 @@ export default [{
   image: 'FtrBearXL.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FURNITURE('Papá oso'),
@@ -92,7 +92,7 @@ export default [{
   image: 'FtrBeekeepingbox.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WASP_NEST,
@@ -106,7 +106,7 @@ export default [{
   image: 'FtrBirdbus.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
   materials: [{
     ...MATERIALS.STONE,
@@ -117,7 +117,7 @@ export default [{
   image: 'FtrBirdcage.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: []
 }, {
@@ -125,7 +125,7 @@ export default [{
   image: 'FtrBirdhouse.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
   serie: SERIES.BLOCK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -139,7 +139,7 @@ export default [{
   image: 'FtrBonfire.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.BRANCH,
@@ -150,7 +150,7 @@ export default [{
   image: 'FtrBonsaiPine.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR, CATEGORY.TREE],
   serie: SERIES.MAPLE,
   materials: [{
     ...MATERIALS.PINECONE,
@@ -164,7 +164,7 @@ export default [{
   image: 'FtrBonsaiShelf.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR, CATEGORY.TREE],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.FURNITURE('Bonsai Flor de Cerezo'),
@@ -181,7 +181,7 @@ export default [{
   image: 'FtrBooks.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FURNITURE('Libro'),
@@ -192,7 +192,7 @@ export default [{
   image: 'FtrBookshelf.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.SHELVE],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FURNITURE('Libro'),
@@ -206,7 +206,7 @@ export default [{
   image: 'FtrBoomerang.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.SOLID_WOOD,
@@ -217,7 +217,7 @@ export default [{
   image: 'FtrBucketWood.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.GARDEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -231,7 +231,7 @@ export default [{
   image: 'FtrButtermixer.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.GARDEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -245,7 +245,7 @@ export default [{
   image: 'FtrCampfire.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [
     {
@@ -261,7 +261,7 @@ export default [{
   image: 'FtrCandleXmas.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT, CATEGORY.LAMP],
   serie: SERIES.LIGHT,
   materials: []
 }, {
@@ -269,7 +269,7 @@ export default [{
   image: 'FtrClaytoy.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.CLAY,
@@ -280,7 +280,7 @@ export default [{
   image: 'FtrClothesline.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.BRANCH,
@@ -291,7 +291,7 @@ export default [{
   image: 'FtrCoconutjuice.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.FRUIT,
   materials: [{
     ...MATERIALS.COCONUT,
@@ -302,15 +302,18 @@ export default [{
   image: 'FtrCushionJapanPile.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
   serie: SERIES.NOOK,
-  materials: []
+  materials: [{
+    ...MATERIALS.FURNITURE('Cojines con Borlas'),
+    quantity: 3
+  }]
 }, {
   name: 'Tabla de cortar sencilla',
   image: 'FtrCuttingboard.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.SOLID_WOOD,
@@ -324,7 +327,7 @@ export default [{
   image: 'FtrDecoy.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FLEXIBLE_WOOD,
@@ -335,7 +338,7 @@ export default [{
   image: 'FtrDiningtableJapan.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.SOLID_WOOD,
@@ -346,7 +349,7 @@ export default [{
   image: 'FtrDishesUnglazed.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.CLAY,
@@ -357,7 +360,7 @@ export default [{
   image: 'FtrDoghouse.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -371,7 +374,7 @@ export default [{
   image: 'FtrDrinkingfountain.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
   materials: [{
     ...MATERIALS.STONE,
@@ -385,7 +388,7 @@ export default [{
   image: 'FtrDrumcanbath.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: []
 }, {
@@ -393,7 +396,7 @@ export default [{
   image: 'FtrFallenleaves.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.MAPLE,
   materials: [{
     ...MATERIALS.PINECONE,
@@ -407,7 +410,7 @@ export default [{
   image: 'FtrFallenleavesChairS.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.MAPLE,
   materials: []
 }, {
@@ -415,7 +418,7 @@ export default [{
   image: 'FtrFallenleavesfire.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.MAPLE,
   materials: [{
     ...MATERIALS.PINECONE,
@@ -432,7 +435,7 @@ export default [{
   image: 'FtrFallenleavesGreen.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.BAMBOO,
   materials: [{
     ...MATERIALS.HERB,
@@ -446,7 +449,7 @@ export default [{
   image: 'FtrFallenleavesRed.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.MAPLE,
   materials: [{
     ...MATERIALS.MAPLE,
@@ -460,7 +463,7 @@ export default [{
   image: 'FtrFallenleavesYellow.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.MAPLE,
   materials: [{
     ...MATERIALS.ACORN,
@@ -482,7 +485,7 @@ export default [{
   image: 'FtrFirewood.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -493,7 +496,7 @@ export default [{
   image: 'FtrFloat.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -504,7 +507,7 @@ export default [{
   image: 'FtrFloorpapers.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FURNITURE('Pila de papeles'),
@@ -515,7 +518,7 @@ export default [{
   image: 'FtrFountain.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
   materials: [{
     ...MATERIALS.FURNITURE('Fuente para Beber'),
@@ -532,7 +535,7 @@ export default [{
   image: 'FtrGarbagebag.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.TRASH_CAN,
@@ -549,7 +552,7 @@ export default [{
   image: 'FtrGoemonburo.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.IRON,
   materials: [{
     ...MATERIALS.IRON,
@@ -566,7 +569,7 @@ export default [{
   image: 'FtrGravestoneEuropean.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
   materials: []
 }, {
@@ -574,7 +577,7 @@ export default [{
   image: 'FtrGravestoneJapan.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
   materials: [{
     ...MATERIALS.STONE,
@@ -585,7 +588,7 @@ export default [{
   image: 'FtrHandpump.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.GARDEN,
   materials: [{
     ...MATERIALS.IRON_NUGGET,
@@ -599,7 +602,7 @@ export default [{
   image: 'FtrHariboteGrass.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.WOOD,
@@ -613,7 +616,7 @@ export default [{
   image: 'FtrHariboteHedge.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR, CATEGORY.FURNITURE],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.WOOD,
@@ -627,7 +630,7 @@ export default [{
   image: 'FtrHariboteMountain.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR, CATEGORY.FURNITURE],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.WOOD,
@@ -641,7 +644,7 @@ export default [{
   image: 'FtrHariboteTree.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR, CATEGORY.FURNITURE],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.WOOD,
@@ -655,7 +658,7 @@ export default [{
   image: 'FtrHaybed.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.HERB,
@@ -666,7 +669,7 @@ export default [{
   image: 'FtrHerorobot.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FURNITURE('Cohete Espacial'),
@@ -689,7 +692,7 @@ export default [{
   image: 'FtrHuntingtrophy.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FLEXIBLE_WOOD,
@@ -700,7 +703,7 @@ export default [{
   image: 'FtrKalimbaCan.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.TRASH_CAN,
@@ -717,7 +720,7 @@ export default [{
   image: 'FtrKame.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.CLAY,
@@ -728,7 +731,7 @@ export default [{
   image: 'FtrKatakatatoy.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.BLOCK,
   materials: [{
     ...MATERIALS.SOLID_WOOD,
@@ -742,7 +745,7 @@ export default [{
   image: 'FtrKettlebell.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.IRON,
   materials: [{
     ...MATERIALS.IRON_NUGGET,
@@ -753,7 +756,7 @@ export default [{
   image: 'FtrKeyhanger.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.WALL_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -767,7 +770,7 @@ export default [{
   image: 'FtrLeafWall.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.WALL_OBJECT],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.WOOD,
@@ -777,22 +780,22 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Revistas',
+  name: 'Montón de Revistas',
   image: 'FtrMagagine.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FURNITURE('Revista'),
-    quantity: 10
+    quantity: 6
   }]
 }, {
-  name: 'Sujeta Revistas',
+  name: 'Revistero',
   image: 'FtrMagazinerack.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FURNITURE('Revista'),
@@ -806,7 +809,7 @@ export default [{
   image: 'FtrManhole.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.IRON,
   materials: [{
     ...MATERIALS.IRON_NUGGET,
@@ -817,7 +820,7 @@ export default [{
   image: 'FtrMatryoshka.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FLEXIBLE_WOOD,
@@ -828,7 +831,7 @@ export default [{
   image: 'FtrMeteo.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.SPACE,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -842,7 +845,7 @@ export default [{
   image: 'FtrMicrolibrary.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.SHELVE],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -856,7 +859,7 @@ export default [{
   image: 'FtrModule.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.SPACE,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -870,7 +873,7 @@ export default [{
   image: 'FtrMokugyo.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -881,7 +884,7 @@ export default [{
   image: 'FtrMoon.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.SPACE,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -895,7 +898,7 @@ export default [{
   image: 'FtrMoonrover.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.SPACE,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -912,7 +915,7 @@ export default [{
   image: 'FtrMovingboxL.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.CARDBOARD,
   materials: [{
     ...MATERIALS.FURNITURE('Cajas'),
@@ -923,7 +926,7 @@ export default [{
   image: 'FtrMovingboxM.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.CARDBOARD,
   materials: [{
     ...MATERIALS.FURNITURE('Cajas'),
@@ -934,7 +937,7 @@ export default [{
   image: 'FtrMovingboxS.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.CARDBOARD,
   materials: [{
     ...MATERIALS.FURNITURE('Cajas'),
@@ -945,7 +948,7 @@ export default [{
   image: 'FtrMusicstand.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR, CATEGORY.MUSIC],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.SOLID_WOOD,
@@ -956,7 +959,7 @@ export default [{
   image: 'FtrOfficePapers.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FURNITURE('Papeles tirados'),
@@ -967,7 +970,7 @@ export default [{
   image: 'FtrOpenairbath.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
   materials: [{
     ...MATERIALS.STONE,
@@ -981,7 +984,7 @@ export default [{
   image: 'FtrOrnamentMobile.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.NOOK,
   materials: []
 }, {
@@ -989,7 +992,7 @@ export default [{
   image: 'FtrOrnamentTanuki.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: []
 }, {
@@ -997,7 +1000,7 @@ export default [{
   image: 'FtrPalmtreelamp.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.LAMP, CATEGORY.FURNITURE],
   serie: SERIES.FRUIT,
   materials: [{
     ...MATERIALS.COCONUT,
@@ -1014,7 +1017,7 @@ export default [{
   image: 'FtrPan.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.IRON,
   materials: [{
     ...MATERIALS.IRON_NUGGET,
@@ -1025,7 +1028,7 @@ export default [{
   image: 'FtrParkbenche.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.CHAIR, CATEGORY.EXTERIOR],
   serie: SERIES.GARDEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1039,7 +1042,7 @@ export default [{
   image: 'FtrPianoStreet.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR, CATEGORY.FURNITURE, CATEGORY.MUSIC],
   serie: SERIES.NOOK,
   materials: []
 }, {
@@ -1047,7 +1050,7 @@ export default [{
   image: 'FtrPirateBarrel.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.GARDEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1061,7 +1064,7 @@ export default [{
   image: 'FtrPlanterPalm.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.WALL_OBJECT],
   serie: SERIES.NOOK,
   materials: []
 }, {
@@ -1069,7 +1072,7 @@ export default [{
   image: 'FtrPlantSucculents.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.HERB,
@@ -1083,7 +1086,7 @@ export default [{
   image: 'FtrPlayingtire.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.TRASH_WHEEL,
@@ -1094,7 +1097,7 @@ export default [{
   image: 'FtrPotteryjug.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.CLAY,
@@ -1105,7 +1108,7 @@ export default [{
   image: 'FtrQuoits.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TABLE_OBJECT],
   serie: SERIES.BLOCK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1119,7 +1122,7 @@ export default [{
   image: 'FtrRockArch.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
   materials: [{
     ...MATERIALS.STONE,
@@ -1130,7 +1133,7 @@ export default [{
   image: 'FtrRocket.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.SPACE,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -1144,7 +1147,7 @@ export default [{
   image: 'FtrRockingchair.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
   serie: SERIES.BLOCK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1158,7 +1161,7 @@ export default [{
   image: 'FtrRockinghorse.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.BLOCK,
   materials: [{
     ...MATERIALS.FLEXIBLE_WOOD,
@@ -1169,7 +1172,7 @@ export default [{
   image: 'FtrRockMonument.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
   materials: [{
     ...MATERIALS.STONE,
@@ -1180,7 +1183,7 @@ export default [{
   image: 'FtrSatellite.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.SPACE,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -1194,7 +1197,7 @@ export default [{
   image: 'FtrScarecrow.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.BRANCH,
@@ -1208,7 +1211,7 @@ export default [{
   image: 'FtrScreenCage.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.SPLITER],
   serie: SERIES.IRON,
   materials: [{
     ...MATERIALS.IRON_NUGGET,
@@ -1219,7 +1222,7 @@ export default [{
   image: 'FtrSekishishi.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
   materials: [{
     ...MATERIALS.STONE,
@@ -1230,7 +1233,7 @@ export default [{
   image: 'FtrShishiodoshi.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.BAMBOO,
   materials: [{
     ...MATERIALS.BAMBU,
@@ -1247,7 +1250,7 @@ export default [{
   image: 'FtrShuttle.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.SPACE,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -1261,7 +1264,7 @@ export default [{
   image: 'FtrSignboardWood.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: []
 }, {
@@ -1269,7 +1272,7 @@ export default [{
   image: 'FtrSignpost.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.SOLID_WOOD,
@@ -1283,7 +1286,7 @@ export default [{
   image: 'FtrSignpostTilt.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.SOLID_WOOD,
@@ -1297,7 +1300,7 @@ export default [{
   image: 'FtrSignpostWorld.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1308,7 +1311,7 @@ export default [{
   image: 'FtrSignWood.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1319,7 +1322,7 @@ export default [{
   image: 'FtrSilo.png',
   height: 2,
   width: 2,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.IRON_NUGGET,
@@ -1339,7 +1342,7 @@ export default [{
   image: 'FtrSled.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.BLOCK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1350,7 +1353,7 @@ export default [{
   image: 'FtrSnowman.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.ICE,
   materials: [{
     ...MATERIALS.ICE,
@@ -1367,7 +1370,7 @@ export default [{
   image: 'FtrStoveSauna.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.STONE,
@@ -1384,7 +1387,7 @@ export default [{
   image: 'FtrSwingWood.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.BLOCK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1398,7 +1401,7 @@ export default [{
   image: 'FtrTamtam.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.IRON_NUGGET,
@@ -1412,7 +1415,7 @@ export default [{
   image: 'FtrTerrarium.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.TABLE_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.HERB,
@@ -1426,7 +1429,7 @@ export default [{
   image: 'FtrTerrariumWall.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.WALL_OBJECT],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.HERB,
@@ -1440,7 +1443,7 @@ export default [{
   image: 'FtrTetrapod.png',
   height: 2,
   width: 2,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
   materials: [{
     ...MATERIALS.STONE,
@@ -1454,7 +1457,7 @@ export default [{
   image: 'FtrToolboxWood.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FLEXIBLE_WOOD,
@@ -1468,7 +1471,7 @@ export default [{
   image: 'FtrTorch.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.BRANCH,
@@ -1482,7 +1485,7 @@ export default [{
   image: 'FtrTrashboxWood.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.WOODEN,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1493,7 +1496,7 @@ export default [{
   image: 'FtrTreeXmasL.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR, CATEGORY.TREE],
   serie: SERIES.LIGHT,
   materials: []
 }, {
@@ -1501,7 +1504,7 @@ export default [{
   image: 'FtrTreeXmasMini.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR, CATEGORY.TREE],
   serie: SERIES.LIGHT,
   materials: []
 }, {
@@ -1509,7 +1512,7 @@ export default [{
   image: 'FtrTreeXmasS.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR, CATEGORY.TREE],
   serie: SERIES.LIGHT,
   materials: []
 }, {
@@ -1517,7 +1520,7 @@ export default [{
   image: 'FtrTrophycase.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR, CATEGORY.FURNITURE],
   serie: SERIES.NOOK,
   materials: [
     {
@@ -1537,7 +1540,7 @@ export default [{
   image: 'FtrTyres.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.TRASH_WHEEL,
@@ -1548,7 +1551,7 @@ export default [{
   image: 'FtrUFO.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.SPACE,
   materials: [{
     ...MATERIALS.STAR_FRAGMENT,
@@ -1562,7 +1565,7 @@ export default [{
   image: 'FtrUkulele.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.MUSIC],
   serie: SERIES.TOOLS,
   materials: []
 }, {
@@ -1570,7 +1573,7 @@ export default [{
   image: 'FtrWashstandBowl.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TOILET],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1587,7 +1590,7 @@ export default [{
   image: 'FtrWashtub.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.FLEXIBLE_WOOD,
@@ -1598,7 +1601,7 @@ export default [{
   image: 'FtrWell.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
   materials: [{
     ...MATERIALS.STONE,
@@ -1612,7 +1615,7 @@ export default [{
   image: 'FtrWellBrick.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.CLAY,
@@ -1629,7 +1632,7 @@ export default [{
   image: 'FtrWoodBench.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR, CATEGORY.CHAIR],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.SOLID_WOOD,
@@ -1643,7 +1646,7 @@ export default [{
   image: 'FtrWoodPile.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.EXTERIOR],
   serie: SERIES.LOG,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1654,7 +1657,7 @@ export default [{
   image: 'FtrWorkbench.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
   materials: []
 }, {
@@ -1662,7 +1665,7 @@ export default [{
   image: 'FtrWorkbenchIronwood.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.DESKTOP],
   serie: SERIES.UNIVERSIDAD,
   materials: [{
     ...MATERIALS.IRON_NUGGET,
@@ -1679,7 +1682,7 @@ export default [{
   image: 'FtrWorkbenchS.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.DESKTOP],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1699,7 +1702,7 @@ export default [{
   image: 'FtrWorkbenchStump.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.FURNITURE, CATEGORY.DESKTOP],
   serie: SERIES.LOG,
   materials: [{
     ...MATERIALS.SOLID_WOOD,
@@ -1713,7 +1716,7 @@ export default [{
   image: 'ItemMedicine.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.CONSUMIBLE],
   serie: SERIES.TOOLS,
   materials: [
     {
@@ -1729,7 +1732,7 @@ export default [{
   image: 'LongWoodenStick.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.TOOL],
   serie: SERIES.TOOLS,
   materials: [{
     ...MATERIALS.FLEXIBLE_WOOD,
@@ -1740,7 +1743,7 @@ export default [{
   image: 'PitfallSeed.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.CONSUMIBLE],
   serie: SERIES.TOOLS,
   materials: [{
     ...MATERIALS.HERB,
@@ -1754,7 +1757,7 @@ export default [{
   image: 'ShoesKneeKnightIron.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.CLOTH, CATEGORY.SHOES],
   serie: SERIES.IRON,
   materials: [{
     ...MATERIALS.IRON_NUGGET,
@@ -1765,7 +1768,7 @@ export default [{
   image: 'ShoesKneeRecyclingboots0.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.CLOTH, CATEGORY.SHOES],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.TRASH_BOOT,
@@ -1776,7 +1779,7 @@ export default [{
   image: 'TopsTexOnepieceOverallLPlatearmorIron.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.CLOTH, CATEGORY.ONE_PIECE],
   serie: SERIES.IRON,
   materials: [{
     ...MATERIALS.IRON_NUGGET,
@@ -1787,7 +1790,7 @@ export default [{
   image: 'TopsTexTopCoatLStrawBeige.png',
   height: 1,
   width: 1,
-  category: [],
+  category: [CATEGORY.CLOTH, CATEGORY.ONE_PIECE],
   serie: SERIES.GRASS,
   materials: [{
     ...MATERIALS.HERB,

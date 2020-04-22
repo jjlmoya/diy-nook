@@ -16,7 +16,7 @@ export default [
     image: 'FtrFlowerBedW.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.BED],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.ROSE_RED,
@@ -30,7 +30,7 @@ export default [
     image: 'FtrFlowerFan.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.FLOWER,
     materials: []
   }, {
@@ -38,7 +38,7 @@ export default [
     image: 'FtrFlowerLamp.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.LAMP],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.JACINT_PURPLE,
@@ -52,7 +52,7 @@ export default [
     image: 'FtrFlowerRecordplayer.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.MUSIC],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.LILY_WHITE,
@@ -69,7 +69,7 @@ export default [
     image: 'FtrFlowerShower.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.FLOWER,
     materials: []
   }, {
@@ -77,7 +77,7 @@ export default [
     image: 'FtrFlowerStoolS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.FLOWER,
     materials: []
   }, {
@@ -85,7 +85,7 @@ export default [
     image: 'FtrFlowerSurprisedbox.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.FLOWER,
     materials: [{
       ...MATERIALS.TULIP_RED,
@@ -99,7 +99,7 @@ export default [
     image: 'FtrFlowerSwag.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.FLOWER,
     materials: []
   }, {
@@ -107,7 +107,7 @@ export default [
     image: 'FtrFlowerTableS.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.FLOWER,
     materials: []
   }

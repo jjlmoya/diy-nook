@@ -8,7 +8,7 @@ export default [
     image: 'FtrIllumiPresent.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.FURNITURE],
+    category: [CATEGORY.EXTERIOR, CATEGORY.LAMP],
     serie: SERIES.LIGHT,
     materials: [{
       ...MATERIALS.STAR_FRAGMENT,
@@ -19,7 +19,7 @@ export default [
     image: 'FtrIllumiReindeer.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR, CATEGORY.LAMP],
     serie: SERIES.LIGHT,
     materials: []
   }, {
@@ -27,7 +27,7 @@ export default [
     image: 'FtrIllumiSnow.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR, CATEGORY.LAMP],
     serie: SERIES.LIGHT,
     materials: []
   }, {
@@ -35,7 +35,7 @@ export default [
     image: 'FtrIllumiTree.png',
     height: 1,
     width: 1,
-    category: [],
+    category: [CATEGORY.EXTERIOR, CATEGORY.LAMP],
     serie: SERIES.LIGHT,
     materials: []
   }
