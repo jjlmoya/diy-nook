@@ -1,4 +1,5 @@
 .craft-card {
+  animation: fade-in-animation 0.8s;
   position: relative;
   background-color: #dfd6ad;
   height: 260px;
@@ -80,5 +81,27 @@
 
   .material__image {
     width: 25px;
+  }
+}
+
+
+@keyframes fade-in-animation {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+.own-filter {
+  .is-not-owned {
+    animation: fade-in-animation 1s;
+    animation-delay: 0.3s;
+    opacity: 0.3;
+    order: 2
   }
 }

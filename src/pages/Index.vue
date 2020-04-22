@@ -14,7 +14,7 @@
                     :owneds="owneds"
                 />
                 <div @click="expendLimits" class="craft-card craft-card__see-more" v-if="crafts.length > limit">
-                  <span class="text">Ver más</span>
+                  <span class="text">Ver todos</span>
                 </div>
             </div>
         </layout>
@@ -61,7 +61,7 @@ export default {
       this.owneds += value
     },
     expendLimits () {
-      this.limit = this.limit + 300
+      this.limit = this.limit + 500
     },
     onUpdatePage (category) {
       const crafting = this.getCrafts(category)

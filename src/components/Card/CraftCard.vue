@@ -1,5 +1,5 @@
 <template>
-    <div class="craft-card">
+    <div class="craft-card" :class="owned ? 'is-owned' : 'is-not-owned'">
         <div class="craft-card__name">
             {{ name }}
         </div>

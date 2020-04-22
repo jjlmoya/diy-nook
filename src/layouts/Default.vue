@@ -11,6 +11,10 @@
                     :selected="selected"
                     :cat="category"
                     :fold="activeCategories ? 'is-active' : ''" />
+                  <Owneds :click="toggleOwneds"
+                    :selected="selected"
+                    :cat="category"
+                    :fold="activeOwneds ? 'is-active' : ''" />
                 </div>
                 <slot />
             </div>
@@ -24,13 +28,15 @@
 import Footer from '../components/Footer/Default.vue'
 import Select from '../components/Select/Select.vue'
 import Category from '../components/Filter/Category.vue'
+import Owneds from '../components/Filter/Owneds.vue'
 
 export default {
   name: 'DefaultLayout',
   components: {
     Select,
     Footer,
-    Category
+    Category,
+    Owneds
   },
   props: {
     selected: {
@@ -45,7 +51,8 @@ export default {
   data () {
     return {
       activeCategories: false,
-      activeSeries: false
+      activeSeries: false,
+      activeOwneds: false
     }
   },
   methods: {
@@ -58,6 +65,11 @@ export default {
       this.activeSeries = false
       this.activeCategories = !this.activeCategories
       document.body.classList.toggle('overflow', this.activeSeries || this.activeCategories)
+    },
+    toggleOwneds () {
+      console.log('hola')
+      this.activeOwneds = !this.activeOwneds
+      document.body.classList.toggle('own-filter', this.activeOwneds)
     }
   }
 }

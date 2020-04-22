@@ -1,7 +1,7 @@
 import CRAFTS from '../../../data/ac/craft.data'
 
 export default class CraftingService {
-  constructor ({ category, serie }) {
+  constructor ({ category, serie, ownedFilter }) {
     this.crafts = CRAFTS
     this.maxItem = CRAFTS.length
     this.category = category
@@ -13,7 +13,9 @@ export default class CraftingService {
     if (this.category) {
       this.crafts = this.crafts.filter(craft => this.hasCategory(this.category, craft.category))
     }
-    this.ownedCount = this.getOwnedsByCrafts()
+    this.ownedsCrafts = this.getOwnedsByCrafts()
+    this.ownedCount = this.getOwnedsByCrafts().length
+    this.crafts = ownedFilter ? this.getOwnedsByCrafts() : this.crafts
     this.currentMaxItems = this.filtered ? this.filtered.length : this.maxItem
   }
 
@@ -29,9 +31,9 @@ export default class CraftingService {
     let owneds = localStorage.owned
     if (owneds) {
       owneds = JSON.parse(owneds)
-      return this.crafts.filter(craft => this.hasOwn(craft.image, owneds)).length
+      return this.crafts.filter(craft => this.hasOwn(craft.image, owneds))
     }
-    return 0
+    return []
   }
 
   getCrafts () {
@@ -40,6 +42,10 @@ export default class CraftingService {
 
   getOwneds () {
     return this.ownedCount
+  }
+
+  getOwnedsCrafts () {
+    return this.ownedsCrafts
   }
 
   getMaxObjets () {

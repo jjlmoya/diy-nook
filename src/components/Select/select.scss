@@ -7,6 +7,12 @@
       width: 25px;
       fill: green;
     }
+    .active {
+      display: block;
+    }
+    .inactive {
+      display: none;
+    }
   }
 }
 .filter-select {
@@ -67,6 +73,15 @@
   }
   &--category {
     right: 55px;
+  }
+  &--owned {
+    right: 110px;
+    .active {
+      display: none;
+    }
+    .inactive {
+      display: block;
+    }
   }
   svg {
     width: 25px;

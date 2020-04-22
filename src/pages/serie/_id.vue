@@ -1,6 +1,6 @@
 <template>
     <div class="p-ac p-ac--crafting">
-        <Layout :selected="this.id" :category="this.category">
+        <Layout :selected="this.id" :category="this.category" @filterOwneds="updatePage">
             <div class="crafting-counter">
               <span class="crafting-counter__owned">{{this.owneds}}</span>/<span class="crafting-counter__current">{{this.current}}</span>
             </div>
@@ -50,8 +50,8 @@ export default {
     }
   },
   methods: {
-    getCrafts (id, category) {
-      const craftObjet = new CraftingService({ serie: id, category: category })
+    getCrafts (id, category, isOwnedFilter) {
+      const craftObjet = new CraftingService({ serie: id, category: category, owned: isOwnedFilter })
       return {
         crafts: craftObjet.getCrafts(),
         max: craftObjet.getMaxObjets(),
@@ -62,8 +62,11 @@ export default {
     updateOwneds (value) {
       this.owneds += value
     },
-    onUpdatePage (id, category) {
-      const crafting = this.getCrafts(id, this.$route.query.category)
+    updatePage (isOwnedFilter) {
+      console.log(isOwnedFilter)
+    },
+    onUpdatePage (id, category, isOwnedFilter) {
+      const crafting = this.getCrafts(id, this.$route.query.category, isOwnedFilter)
       this.crafts = crafting.crafts
       this.id = id
       this.maxItems = crafting.max
