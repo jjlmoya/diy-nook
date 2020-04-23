@@ -20,11 +20,11 @@ export default class CraftingService {
   }
 
   normalizeString (string) {
-    return string.normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    return string.normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim().toLowerCase()
   }
 
   filterByName (name) {
-    return this.crafts.filter(craft => this.normalizeString(craft.name).toLowerCase().indexOf(this.normalizeString(this.search)) > -1)
+    return this.crafts.filter(craft => this.normalizeString(craft.name).indexOf(this.normalizeString(this.search)) > -1)
   }
 
   hasOwn (entry, owneds) {

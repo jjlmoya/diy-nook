@@ -1022,7 +1022,7 @@ export default [{
     quantity: 4
   }, {
     ...MATERIALS.CLAY,
-    quantity: 3
+    quantity: 4
   }]
 }, {
   name: 'Sartén',
@@ -1050,13 +1050,19 @@ export default [{
     quantity: 4
   }]
 }, {
-  name: 'Piano Callejero',
+  name: 'Piano Ambulante',
   image: 'FtrPianoStreet.png',
   height: 1,
   width: 1,
   category: [CATEGORY.EXTERIOR, CATEGORY.FURNITURE, CATEGORY.MUSIC],
   serie: SERIES.NOOK,
-  materials: []
+  materials: [{
+    ...MATERIALS.FURNITURE('Piano de Pared'),
+    quantity: 1
+  }, {
+    ...MATERIALS.FURNITURE('Kit de Pintura'),
+    quantity: 1
+  }]
 }, {
   name: 'Tonel',
   image: 'FtrPirateBarrel.png',
@@ -1072,13 +1078,19 @@ export default [{
     quantity: 2
   }]
 }, {
-  name: 'Planta Colgante',
+  name: 'Macetero de Coco Colgante ',
   image: 'FtrPlanterPalm.png',
   height: 1,
   width: 1,
   category: [CATEGORY.WALL_OBJECT],
   serie: SERIES.NOOK,
-  materials: []
+  materials: [{
+    ...MATERIALS.COCONUT,
+    quantity: 1
+  }, {
+    ...MATERIALS.HERB,
+    quantity: 5
+  }]
 }, {
   name: 'Aloe Pequeño',
   image: 'FtrPlantSucculents.png',
