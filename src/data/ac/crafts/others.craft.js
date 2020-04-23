@@ -42,7 +42,13 @@ export default [{
   width: 1,
   category: [CATEGORY.MUSIC],
   serie: SERIES.NOOK,
-  materials: []
+  materials: [{
+    ...MATERIALS.FLEXIBLE_WOOD,
+    quantity: 8
+  }, {
+    ...MATERIALS.IRON_NUGGET,
+    quantity: 3
+  }]
 }, {
   name: 'Quemador de esencias',
   image: 'FtrAlomapot.png',
@@ -69,7 +75,10 @@ export default [{
   width: 1,
   category: [CATEGORY.FURNITURE],
   serie: SERIES.IRON,
-  materials: []
+  materials: [{
+    ...MATERIALS.IRON_NUGGET,
+    quantity: 10
+  }]
 }, {
   name: 'Oso XL',
   image: 'FtrBearXL.png',
@@ -988,13 +997,16 @@ export default [{
   serie: SERIES.NOOK,
   materials: []
 }, {
-  name: 'Decoración Tanuki',
+  name: 'Figura Oriental de Mapache',
   image: 'FtrOrnamentTanuki.png',
   height: 1,
   width: 1,
   category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
-  materials: []
+  materials: [{
+    ...MATERIALS.CLAY,
+    quantity: 6
+  }]
 }, {
   name: 'Lámpara Palmera',
   image: 'FtrPalmtreelamp.png',
@@ -1260,13 +1272,16 @@ export default [{
     quantity: 10
   }]
 }, {
-  name: 'Placa de Madera Oriental',
+  name: 'Rótulo en bajorrelieve',
   image: 'FtrSignboardWood.png',
   height: 1,
   width: 1,
   category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
-  materials: []
+  materials: [{
+    ...MATERIALS.SOLID_WOOD,
+    quantity: 5
+  }]
 }, {
   name: 'Señal',
   image: 'FtrSignpost.png',
@@ -1567,7 +1582,10 @@ export default [{
   width: 1,
   category: [CATEGORY.MUSIC],
   serie: SERIES.TOOLS,
-  materials: []
+  materials: [{
+    ...MATERIALS.SOLID_WOOD,
+    quantity: 5
+  }]
 }, {
   name: 'Lavabo Sencillo',
   image: 'FtrWashstandBowl.png',

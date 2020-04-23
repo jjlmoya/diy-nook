@@ -1,6 +1,10 @@
 <template>
     <div class="p-ac p-ac--crafting">
         <Layout :category="category">
+            <form class="crafting-search" :class="this.search ? 'is-active' : ''">
+              <div class="close" @click="deleteResult"><img src="/statics/close.svg" /></div>
+              <input class="crafting-search__searcher" type="text"  @keyup="onSearch" :v-model="search" placeholder="¿Qué buscas?">
+            </form>
             <div class="crafting-counter">
               <span class="crafting-counter__owned">{{this.owneds}}</span>/<span class="crafting-counter__current">{{this.current}}</span>
             </div>
@@ -44,12 +48,13 @@ export default {
       current: crafting.current,
       owneds: crafting.owneds,
       category: this.$route.query.category,
-      limit: 99
+      limit: 99,
+      search: ''
     }
   },
   methods: {
-    getCrafts (category) {
-      const craftObjet = new CraftingService({ category: category })
+    getCrafts (category, search) {
+      const craftObjet = new CraftingService({ category: category, search: search })
       return {
         crafts: craftObjet.getCrafts(),
         max: craftObjet.getMaxObjets(),
@@ -63,13 +68,22 @@ export default {
     expendLimits () {
       this.limit = this.limit + 500
     },
-    onUpdatePage (category) {
-      const crafting = this.getCrafts(category)
+    onUpdatePage (category, search) {
+      const crafting = this.getCrafts(category, search)
       this.crafts = crafting.crafts
       this.maxItems = crafting.max
       this.current = crafting.current
       this.owneds = crafting.owneds
       this.category = category
+    },
+    onSearch (event) {
+      this.search = event.target.value.trim().toLowerCase()
+      this.onUpdatePage(this.category, this.search)
+    },
+    deleteResult () {
+      this.search = ''
+      document.querySelector('.crafting-search__searcher').value = ''
+      this.onUpdatePage(this.id, this.category, this.search)
     }
   },
   watch: {

@@ -32,7 +32,13 @@ export default [
     width: 1,
     category: [CATEGORY.FURNITURE],
     serie: SERIES.FLOWER,
-    materials: []
+    materials: [{
+      ...MATERIALS.WIND_RED,
+      quantity: 3
+    }, {
+      ...MATERIALS.IRON_NUGGET,
+      quantity: 2
+    }]
   }, {
     name: 'Lámpara de Jacinto',
     image: 'FtrFlowerLamp.png',

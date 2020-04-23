@@ -15,13 +15,16 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Linterna de Piedra',
+    name: 'Farol Alto',
     image: 'FtrStonelantern.png',
     height: 1,
     width: 1,
     category: [CATEGORY.EXTERIOR, CATEGORY.LAMP],
     serie: SERIES.STONE,
-    materials: []
+    materials: [{
+      ...MATERIALS.STONE,
+      quantity: 18
+    }]
   }, {
     name: 'Horno de Piedra',
     image: 'FtrStoneoven.png',

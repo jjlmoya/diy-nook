@@ -1,6 +1,10 @@
 <template>
     <div class="p-ac p-ac--crafting">
-        <Layout :selected="this.id" :category="this.category" @filterOwneds="updatePage">
+        <Layout :selected="this.id" :category="this.category">
+            <form class="crafting-search" :class="this.search ? 'is-active' : ''">
+              <div class="close" @click="deleteResult"><img src="/statics/close.svg" /></div>
+              <input class="crafting-search__searcher" type="text"  @keyup="onSearch" :v-model="search" placeholder="¿Qué buscas?">
+            </form>
             <div class="crafting-counter">
               <span class="crafting-counter__owned">{{this.owneds}}</span>/<span class="crafting-counter__current">{{this.current}}</span>
             </div>
@@ -46,12 +50,13 @@ export default {
       maxItems: crafting.max,
       current: crafting.current,
       owneds: crafting.owneds,
-      category: this.$route.query.category
+      category: this.$route.query.category,
+      search: ''
     }
   },
   methods: {
-    getCrafts (id, category, isOwnedFilter) {
-      const craftObjet = new CraftingService({ serie: id, category: category, owned: isOwnedFilter })
+    getCrafts (id, category, search) {
+      const craftObjet = new CraftingService({ serie: id, category: category, search: search })
       return {
         crafts: craftObjet.getCrafts(),
         max: craftObjet.getMaxObjets(),
@@ -62,17 +67,22 @@ export default {
     updateOwneds (value) {
       this.owneds += value
     },
-    updatePage (isOwnedFilter) {
-      console.log(isOwnedFilter)
-    },
-    onUpdatePage (id, category, isOwnedFilter) {
-      const crafting = this.getCrafts(id, this.$route.query.category, isOwnedFilter)
+    onUpdatePage (id, category, search) {
+      const crafting = this.getCrafts(id, this.$route.query.category, this.search)
       this.crafts = crafting.crafts
       this.id = id
       this.maxItems = crafting.max
       this.current = crafting.current
       this.owneds = crafting.owneds
       this.category = this.$route.query.category
+    },
+    onSearch (event) {
+      this.search = event.target.value.trim().toLowerCase()
+      this.onUpdatePage(this.id, this.category, this.search)
+    },
+    deleteResult () {
+      this.search = ''
+      this.onUpdatePage(this.id, this.category, this.search)
     }
   },
   watch: {

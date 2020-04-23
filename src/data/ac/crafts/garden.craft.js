@@ -79,7 +79,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Tabla de Jardín Natural',
+    name: 'Mesita de Madera Natural',
     image: 'FtrGardenTableSNatural.png',
     height: 1,
     width: 1,
@@ -90,7 +90,7 @@ export default [
       quantity: 2
     }, {
       ...MATERIALS.SOLID_WOOD,
-      quantity: 6
+      quantity: 4
     }]
   }, {
     name: 'Carreta de Flores',
@@ -110,6 +110,24 @@ export default [
       quantity: 8
     }, {
       ...MATERIALS.IRON_NUGGET,
+      quantity: 2
+    }]
+  },
+  {
+    name: 'Seto',
+    image: 'earth-bush.png',
+    height: 1,
+    width: 1,
+    category: [CATEGORY.EXTERIOR, CATEGORY.FENCES],
+    serie: SERIES.GRASS,
+    materials: [{
+      ...MATERIALS.HERB,
+      quantity: 10
+    }, {
+      ...MATERIALS.BRANCH,
+      quantity: 5
+    }, {
+      ...MATERIALS.STONE,
       quantity: 2
     }]
   }
