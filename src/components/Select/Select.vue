@@ -1,7 +1,7 @@
 <template>
     <div class="filter" @click="click">
       <button class="filter__button"><img
-      src="https://i.pinimg.com/originals/60/55/a4/6055a4402514d92f73f28f0b72d1555e.png">
+      :src="`${assets}nook-leaf.png`">
       </button>
       <div class="filter-select">
           <div class="filter-select__tabs">
@@ -42,6 +42,10 @@ export default {
     },
     click: {
       type: Function
+    },
+    assets: {
+      type: String,
+      default: './statics/'
     }
   },
   data () {

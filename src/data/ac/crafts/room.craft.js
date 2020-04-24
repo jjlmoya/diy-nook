@@ -244,13 +244,16 @@ export default [
       quantity: 10
     }]
   }, {
-    name: 'Pared Espiga Madera',
+    name: 'Panelado madera nudosa',
     image: 'RoomTexWallCedar00.png',
     height: 1,
     width: 1,
     category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
-    materials: []
+    materials: [{
+      ...MATERIALS.SOLID_WOOD,
+      quantity: 15
+    }]
   }, {
     name: 'Pared Cerezas',
     image: 'RoomTexWallCherry00.png',

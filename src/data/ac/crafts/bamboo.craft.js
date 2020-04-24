@@ -202,7 +202,7 @@ export default [
       quantity: 5
     }]
   }, {
-    name: 'Lámparita de Bambú',
+    name: 'Ornamiento de Bambú',
     image: 'FtrBambooSurprisedbox.png',
     height: 1,
     width: 1,
