@@ -26,7 +26,7 @@ export default [
       quantity: 20
     }]
   }, {
-    name: 'Banco de Jardín',
+    name: 'Banco de Forja',
     image: 'FtrIrongardenBench.png',
     height: 1,
     width: 1,

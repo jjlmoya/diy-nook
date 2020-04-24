@@ -1036,7 +1036,7 @@ export default [{
     quantity: 2
   }]
 }, {
-  name: 'Banco de Parque',
+  name: 'Banco de Jardín',
   image: 'FtrParkbenche.png',
   height: 1,
   width: 1,
@@ -1410,7 +1410,7 @@ export default [{
     quantity: 3
   }]
 }, {
-  name: 'Balancín de Jardín',
+  name: 'Balancín de Forja',
   image: 'FtrSwingWood.png',
   height: 1,
   width: 1,

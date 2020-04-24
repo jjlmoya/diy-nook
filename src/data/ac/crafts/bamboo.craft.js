@@ -202,7 +202,7 @@ export default [
       quantity: 5
     }]
   }, {
-    name: 'Ornamiento de Bambú',
+    name: 'Ornamento de Bambú',
     image: 'FtrBambooSurprisedbox.png',
     height: 1,
     width: 1,
