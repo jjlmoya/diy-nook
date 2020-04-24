@@ -1309,7 +1309,7 @@ export default [{
     quantity: 3
   }]
 }, {
-  name: 'Señal Inclinada',
+  name: 'Poste Indicador Oblicuo',
   image: 'FtrSignpostTilt.png',
   height: 1,
   width: 1,
@@ -1319,7 +1319,7 @@ export default [{
     ...MATERIALS.SOLID_WOOD,
     quantity: 2
   }, {
-    ...MATERIALS.WOOD,
+    ...MATERIALS.FLEXIBLE_WOOD,
     quantity: 3
   }]
 }, {
