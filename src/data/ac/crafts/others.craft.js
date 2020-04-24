@@ -736,7 +736,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Katakatoy',
+  name: 'Carrito de Carraca',
   image: 'FtrKatakatatoy.png',
   height: 1,
   width: 1,
@@ -747,7 +747,7 @@ export default [{
     quantity: 2
   }, {
     ...MATERIALS.FLEXIBLE_WOOD,
-    quantity: 4
+    quantity: 6
   }]
 }, {
   name: 'Pesa Rusa',
