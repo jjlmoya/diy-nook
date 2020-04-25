@@ -54,7 +54,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Placa Huella Animalgit stat',
+    name: 'Placa Huella Animal',
     image: 'FtrDoorOrnamentPaw.png',
     height: 1,
     width: 1,
