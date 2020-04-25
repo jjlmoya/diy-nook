@@ -79,7 +79,7 @@ export default [
     serie: SERIES.FLOWER,
     materials: []
   }, {
-    name: 'Puff Crisantemo',
+    name: 'Puf Crisantemo',
     image: 'FtrFlowerStoolS.png',
     height: 1,
     width: 1,

@@ -190,7 +190,7 @@ export default [
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.PEAR,
-      quantity: 7
+      quantity: 6
     }]
   }, {
     name: 'Top Pera',
@@ -281,7 +281,7 @@ export default [
       quantity: 7
     }]
   }, {
-    name: 'Alfombra Naranja',
+    name: 'Alfombra Rodaja Naranja',
     image: 'RugOtherOrangeM00.png',
     height: 1,
     width: 1,
@@ -289,7 +289,7 @@ export default [
     serie: SERIES.FRUIT,
     materials: [{
       ...MATERIALS.ORANGE,
-      quantity: 7
+      quantity: 6
     }]
   }
 ]

@@ -236,7 +236,7 @@ export default [
       quantity: 6
     }]
   }, {
-    name: 'Set de vaporera apilables',
+    name: 'Set de vaporeras apilables',
     image: 'FtrBasketsteamer.png',
     height: 1,
     width: 1,

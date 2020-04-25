@@ -68,7 +68,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Lámparita Concha Marina',
+    name: 'Lámparita Conchas Marinas',
     image: 'FtrShellLamp.png',
     height: 1,
     width: 1,
@@ -116,7 +116,7 @@ export default [
         quantity: 4
       }]
   }, {
-    name: 'Taburete Concha Marina',
+    name: 'Taburete Conchas Marinas',
     image: 'FtrShellStoolS.png',
     height: 1,
     width: 1,
@@ -142,7 +142,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Alfombra Concha Marina',
+    name: 'Alfombra Conchas Marinas',
     image: 'RugOtherShellM00.png',
     height: 1,
     width: 1,

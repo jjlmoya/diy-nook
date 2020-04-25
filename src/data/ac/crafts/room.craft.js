@@ -4,7 +4,7 @@ import CATEGORY from '../category.data'
 
 export default [
   {
-    name: 'Suelo de Otoño',
+    name: 'Suelo Otoño',
     image: 'RoomTexFloorAutumun00.png',
     height: 1,
     width: 1,
@@ -21,7 +21,7 @@ export default [
       quantity: 5
     }]
   }, {
-    name: 'Suelo de Bambú',
+    name: 'Suelo Bambú',
     image: 'RoomTexFloorBamboo00.png',
     height: 1,
     width: 1,
@@ -71,7 +71,7 @@ export default [
       quantity: 2
     }]
   }, {
-    name: 'Suelo de Nieve',
+    name: 'Suelo Nieve',
     image: 'RoomTexFloorGelande00.png',
     height: 1,
     width: 1,
@@ -143,7 +143,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Suelo de Bosque de Setas',
+    name: 'Suelo Bosque de Setas',
     image: 'RoomTexFloorMushForest00.png',
     height: 1,
     width: 1,
@@ -222,7 +222,7 @@ export default [
       quantity: 20
     }]
   }, {
-    name: 'Pared de Bambú',
+    name: 'Pared Bambú',
     image: 'RoomTexWallBamboo00.png',
     height: 1,
     width: 1,
@@ -266,7 +266,7 @@ export default [
       quantity: 20
     }]
   }, {
-    name: 'Pared de Bosque Bambú',
+    name: 'Pared Bosque Bambú',
     image: 'RoomTexWallChikurin00.png',
     height: 1,
     width: 1,
@@ -280,7 +280,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Pared de Leña',
+    name: 'Pared Leña',
     image: 'RoomTexWallFireWood00.png',
     height: 1,
     width: 1,
@@ -361,7 +361,7 @@ export default [
       quantity: 6
     }]
   }, {
-    name: 'Pared de Iceberg',
+    name: 'Pared Iceberg',
     image: 'RoomTexWallIceFloe00.png',
     height: 1,
     width: 1,
@@ -428,7 +428,7 @@ export default [
       quantity: 10
     }]
   }, {
-    name: 'Pared de Leño',
+    name: 'Pared Leño',
     image: 'RoomTexWallLog00.png',
     height: 1,
     width: 1,
@@ -436,7 +436,7 @@ export default [
     serie: SERIES.LOG,
     materials: []
   }, {
-    name: 'Pared de Madera Flexible',
+    name: 'Pared Madera Flexible',
     image: 'RoomTexWallMixPlankWood00.png',
     height: 1,
     width: 1,
@@ -447,7 +447,7 @@ export default [
       quantity: 15
     }]
   }, {
-    name: 'Pared de Madera Rígida',
+    name: 'Pared Madera Rígida',
     image: 'RoomTexWallMixPlankWood01.png',
     height: 1,
     width: 1,
@@ -458,7 +458,7 @@ export default [
       quantity: 15
     }]
   }, {
-    name: 'Pared de Madera',
+    name: 'Pared Madera',
     image: 'RoomTexWallMixwood00.png',
     height: 1,
     width: 1,
@@ -469,7 +469,7 @@ export default [
       quantity: 15
     }]
   }, {
-    name: 'Pared de Setas',
+    name: 'Pared Setas',
     image: 'RoomTexWallMush00.png',
     height: 1,
     width: 1,
@@ -609,7 +609,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Suelo de Hielo',
+    name: 'Suelo Hielo',
     image: 'RoomSpFloorIce00.png',
     height: 1,
     width: 1,
@@ -623,7 +623,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Suelo de Iceberg',
+    name: 'Suelo Iceberg',
     image: 'RoomSpFloorIceFloe00.png',
     height: 1,
     width: 1,
@@ -648,7 +648,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Suelo de Agua',
+    name: 'Suelo Agua',
     image: 'RoomSpFloorWater00.png',
     height: 1,
     width: 1,
@@ -678,7 +678,7 @@ export default [
     serie: SERIES.NOOK,
     materials: []
   }, {
-    name: 'Pared de Nieve',
+    name: 'Pared Nieve',
     image: 'RoomSpWallGelande00.png',
     height: 1,
     width: 1,
@@ -686,7 +686,7 @@ export default [
     serie: SERIES.ICE,
     materials: []
   }, {
-    name: 'Pared de Hielo',
+    name: 'Pared Hielo',
     image: 'RoomSpWallIce00.png',
     height: 1,
     width: 1,

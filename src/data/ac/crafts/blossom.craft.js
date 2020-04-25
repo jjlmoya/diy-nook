@@ -45,7 +45,7 @@ const BLOSSOM_BONSAI = {
 }
 
 const BLOSSOM_FLOWERS = {
-  name: 'Jarrón de flores cerezo',
+  name: 'Jarrón con flores cerezo',
   image: 'FtrSakuraBranch.png',
   height: 1,
   width: 1,
@@ -158,7 +158,7 @@ const BLOSSOM_WALL = {
 }
 
 const BLOSSOM_FLOWERS_FLOOR = {
-  name: 'Suelo de cerezos en flor',
+  name: 'Suelo cerezos en flor',
   image: 'RoomTexFloorSakura00.png',
   height: 1,
   width: 1,
@@ -177,7 +177,7 @@ const BLOSSOM_FLOWERS_FLOOR = {
 }
 
 const BLOSSOM_FLOOR = {
-  name: 'Suelo de cerezo',
+  name: 'Parqué cerezo',
   image: 'RoomTexFloorSolidWood00.png',
   height: 1,
   width: 1,
@@ -226,7 +226,7 @@ const BLOSSOM_PURSE = {
 }
 
 const BLOSSOM_WAND = {
-  name: 'Varita de cerezo',
+  name: 'Varita cerezo',
   image: 'ToolStickCherryblossom.png',
   height: 1,
   width: 1,

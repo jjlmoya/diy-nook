@@ -130,7 +130,7 @@ export default [{
   serie: SERIES.NOOK,
   materials: []
 }, {
-  name: 'Casita de Pájaros',
+  name: 'Casita para Pájaros',
   image: 'FtrBirdhouse.png',
   height: 1,
   width: 1,
@@ -274,7 +274,7 @@ export default [{
   serie: SERIES.LIGHT,
   materials: []
 }, {
-  name: 'Arcilla para Moldear',
+  name: 'Arcilla para Modelar',
   image: 'FtrClaytoy.png',
   height: 1,
   width: 1,
@@ -449,7 +449,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Pila Hojas caídas verdes',
+  name: 'Pila de hojas verdes',
   image: 'FtrFallenleavesGreen.png',
   height: 1,
   width: 1,
@@ -521,7 +521,7 @@ export default [{
     quantity: 12
   }]
 }, {
-  name: 'Papeles tirados',
+  name: 'Montón de Papeles',
   image: 'FtrFloorpapers.png',
   height: 1,
   width: 1,
@@ -973,7 +973,7 @@ export default [{
     quantity: 8
   }]
 }, {
-  name: 'Papeles de Oficina',
+  name: 'Pila de Documentos',
   image: 'FtrOfficePapers.png',
   height: 1,
   width: 1,
@@ -1251,7 +1251,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'León Guardián',
+  name: 'Estatua de León Guardián',
   image: 'FtrSekishishi.png',
   height: 1,
   width: 1,
@@ -1419,7 +1419,7 @@ export default [{
     quantity: 3
   }]
 }, {
-  name: 'Balancín de Forja',
+  name: 'Balancín de Jardín',
   image: 'FtrSwingWood.png',
   height: 1,
   width: 1,
@@ -1737,7 +1737,7 @@ export default [{
     quantity: 2
   }]
 }, {
-  name: 'Banco de Bricolaje S.',
+  name: 'Banco de Bricolaje Sencillo',
   image: 'FtrWorkbenchStump.png',
   height: 1,
   width: 1,

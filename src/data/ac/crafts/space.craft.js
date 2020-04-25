@@ -40,7 +40,7 @@ export default [
       quantity: 5
     }]
   }, {
-    name: 'Silla Creciente',
+    name: 'Sillón Cuarto Creciente',
     image: 'FtrStarMoonChairL.png',
     height: 1,
     width: 1,

@@ -4,21 +4,21 @@ import CATEGORY from '../category.data'
 
 export default [
   {
-    name: 'Cama de Construcciones',
+    name: 'Cama Construcciones',
     image: 'FtrBlockBedS.png',
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE],
     serie: SERIES.BLOCK,
     materials: [{
-      ...MATERIALS.FURNITURE('Juguete de Construcciones'),
+      ...MATERIALS.FURNITURE('Juguete Construcciones'),
       quantity: 1
     }, {
       ...MATERIALS.FLEXIBLE_WOOD,
       quantity: 17
     }]
   }, {
-    name: 'Juguete de Construcciones',
+    name: 'Juguete Construcciones',
     image: 'FtrBlockBrick.png',
     height: 1,
     width: 1,
@@ -29,42 +29,42 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Banco de Construcciones',
+    name: 'Banco Construcciones',
     image: 'FtrBlockChairL.png',
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.BLOCK,
     materials: [{
-      ...MATERIALS.FURNITURE('Juguete de Construcciones'),
+      ...MATERIALS.FURNITURE('Juguete Construcciones'),
       quantity: 1
     }, {
       ...MATERIALS.FLEXIBLE_WOOD,
       quantity: 4
     }]
   }, {
-    name: 'Silla de Construcciones',
+    name: 'Silla Construcciones',
     image: 'FtrBlockChairS.png',
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.BLOCK,
     materials: [{
-      ...MATERIALS.FURNITURE('Juguete de Construcciones'),
+      ...MATERIALS.FURNITURE('Juguete Construcciones'),
       quantity: 1
     }, {
       ...MATERIALS.FLEXIBLE_WOOD,
       quantity: 3
     }]
   }, {
-    name: 'Cómoda de Construcciones',
+    name: 'Cómoda Construcciones',
     image: 'FtrBlockChest.png',
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE, CATEGORY.CHEST],
     serie: SERIES.BLOCK,
     materials: [{
-      ...MATERIALS.FURNITURE('Juguete de Construcciones'),
+      ...MATERIALS.FURNITURE('Juguete Construcciones'),
       quantity: 1
     }, {
       ...MATERIALS.FLEXIBLE_WOOD,
@@ -79,7 +79,7 @@ export default [
     category: [CATEGORY.FURNITURE, CATEGORY.CLOCK],
     serie: SERIES.BLOCK,
     materials: [{
-      ...MATERIALS.FURNITURE('Juguete de Construcciones'),
+      ...MATERIALS.FURNITURE('Juguete Construcciones'),
       quantity: 1
     }, {
       ...MATERIALS.FLEXIBLE_WOOD,
@@ -90,14 +90,14 @@ export default [
     }
     ]
   }, {
-    name: 'Cadena de Construcciones',
+    name: 'Cadena Construcciones',
     image: 'FtrBlockCompo.png',
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE, CATEGORY.MUSIC],
     serie: SERIES.BLOCK,
     materials: [{
-      ...MATERIALS.FURNITURE('Juguete de Construcciones'),
+      ...MATERIALS.FURNITURE('Juguete Construcciones'),
       quantity: 1
     }, {
       ...MATERIALS.FLEXIBLE_WOOD,
@@ -107,42 +107,42 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Estantería de Construcciones',
+    name: 'Estantería Construcciones',
     image: 'FtrBlockShelf.png',
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE, CATEGORY.SHELVE],
     serie: SERIES.BLOCK,
     materials: [{
-      ...MATERIALS.FURNITURE('Juguete de Construcciones'),
+      ...MATERIALS.FURNITURE('Juguete Construcciones'),
       quantity: 1
     }, {
       ...MATERIALS.FLEXIBLE_WOOD,
       quantity: 3
     }]
   }, {
-    name: 'Taburete de Construcciones',
+    name: 'Taburete Construcciones',
     image: 'FtrBlockStoolS.png',
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.BLOCK,
     materials: [{
-      ...MATERIALS.FURNITURE('Juguete de Construcciones'),
+      ...MATERIALS.FURNITURE('Juguete Construcciones'),
       quantity: 1
     }, {
       ...MATERIALS.FLEXIBLE_WOOD,
       quantity: 2
     }]
   }, {
-    name: 'Mesa de Construcciones',
+    name: 'Mesa Construcciones',
     image: 'FtrBlockTableL.png',
     height: 1,
     width: 1,
     category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
     serie: SERIES.BLOCK,
     materials: [{
-      ...MATERIALS.FURNITURE('Juguete de Construcciones'),
+      ...MATERIALS.FURNITURE('Juguete Construcciones'),
       quantity: 1
     }, {
       ...MATERIALS.FLEXIBLE_WOOD,

@@ -89,7 +89,7 @@ export default [
   AXE,
   GOLD_AXE,
   {
-    name: 'Caña de Pescar',
+    name: 'Caña',
     image: 'ToolAngling.png',
     height: 1,
     width: 1,
@@ -154,7 +154,7 @@ export default [
       }
     ]
   }, {
-    name: 'Escalera',
+    name: 'Escalera de mano',
     image: 'ToolLadder.png',
     height: 1,
     width: 1,
@@ -402,7 +402,7 @@ export default [
       quantity: 2
     }]
   }, {
-    name: 'Vara de Jacinto',
+    name: 'Varita Jacinto',
     image: 'ToolStickHyacinth.png',
     height: 1,
     width: 1,
@@ -508,7 +508,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Vara de Ramas',
+    name: 'Varita Ramas',
     image: 'ToolStickTree.png',
     height: 1,
     width: 1,

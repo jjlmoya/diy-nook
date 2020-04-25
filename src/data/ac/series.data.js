@@ -1,6 +1,6 @@
 const SHELL = {
   id: 'shell',
-  name: 'Concha Marina'
+  name: 'Conchas Marinas'
 }
 
 const BLOCK = {

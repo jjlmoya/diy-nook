@@ -1,5 +1,5 @@
 const BUILD_TOY = {
-  name: 'Juguete de construcciones',
+  name: 'Juguete construcciones',
   image: ''
 }
 

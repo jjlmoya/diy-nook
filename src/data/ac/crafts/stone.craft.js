@@ -26,7 +26,7 @@ export default [
       quantity: 18
     }]
   }, {
-    name: 'Horno de Piedra',
+    name: 'Horno de Ladrillo',
     image: 'FtrStoneoven.png',
     height: 1,
     width: 1,
