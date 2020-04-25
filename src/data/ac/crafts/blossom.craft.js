@@ -3,7 +3,7 @@ import SERIES from '../series.data'
 import CATEGORY from '../category.data'
 
 const PILE_BLOSSOM = {
-  name: 'Pila de cerezos',
+  name: 'Pila de Pétalos de Cerezo',
   image: 'FtrSakuraPetal.png',
   height: 1,
   width: 1,
@@ -45,7 +45,7 @@ const BLOSSOM_BONSAI = {
 }
 
 const BLOSSOM_FLOWERS = {
-  name: 'Jarrón de cerezo',
+  name: 'Jarrón de flores cerezo',
   image: 'FtrSakuraBranch.png',
   height: 1,
   width: 1,
@@ -68,7 +68,7 @@ const BLOSSOM_FLOWERS = {
 }
 
 const PICNIC_SET = {
-  name: 'Set de pícnic de Cerezo',
+  name: 'Set de pícnic',
   image: 'FtrSakuraPicnicset.png',
   height: 1,
   width: 1,
@@ -121,7 +121,7 @@ const BLOSSOM_CLOCK = {
 }
 
 const BLOSSOM_FLOWERS_WALL = {
-  name: 'Pared de cerezos',
+  name: 'Pared cerezos en flor',
   image: 'RoomSpWallSakura00.png',
   height: 1,
   width: 1,
@@ -158,7 +158,7 @@ const BLOSSOM_WALL = {
 }
 
 const BLOSSOM_FLOWERS_FLOOR = {
-  name: 'Suelo de cerezos',
+  name: 'Suelo de cerezos en flor',
   image: 'RoomTexFloorSakura00.png',
   height: 1,
   width: 1,
@@ -196,7 +196,7 @@ const BLOSSOM_FLOOR = {
 }
 
 const BLOSSOM_UMBRELLA = {
-  name: 'Paraguas de cerezo',
+  name: 'Paraguas flor de cerezo',
   image: 'UmbrellaCherryblossom0.png',
   height: 1,
   width: 1,
@@ -211,7 +211,7 @@ const BLOSSOM_UMBRELLA = {
 }
 
 const BLOSSOM_PURSE = {
-  name: 'Bolsito de cerezo',
+  name: 'Bolsito Flor de Cerezo',
   image: 'BagShoulderCherryblossoms0.png',
   height: 1,
   width: 1,

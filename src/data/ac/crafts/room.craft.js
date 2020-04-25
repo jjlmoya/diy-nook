@@ -93,7 +93,7 @@ export default [
       quantity: 4
     }]
   }, {
-    name: 'Suelo Panal',
+    name: 'Suelo Meloso',
     image: 'RoomTexFloorHoney00.png',
     height: 1,
     width: 1,
@@ -163,7 +163,7 @@ export default [
       quantity: 2
     }]
   }, {
-    name: 'Suelo Tropical',
+    name: 'Suelo Playa Tropical',
     image: 'RoomTexFloorSand00.png',
     height: 1,
     width: 1,
@@ -266,7 +266,7 @@ export default [
       quantity: 20
     }]
   }, {
-    name: 'RoomTexWallChikurin00',
+    name: 'Pared de Bosque Bambú',
     image: 'RoomTexWallChikurin00.png',
     height: 1,
     width: 1,
@@ -294,7 +294,13 @@ export default [
     width: 1,
     category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
-    materials: []
+    materials: [{
+      ...MATERIALS.FURNITURE('Pared Bruma Oriental'),
+      quantity: 1
+    }, {
+      ...MATERIALS.GOLD_NUGGET,
+      quantity: 2
+    }]
   }, {
     name: 'Pared Vertedero',
     image: 'RoomTexWallGarbage00.png',
@@ -344,7 +350,7 @@ export default [
       quantity: 15
     }]
   }, {
-    name: 'Pared Panal',
+    name: 'Pared Melosa',
     image: 'RoomTexWallHoney00.png',
     height: 1,
     width: 1,
@@ -558,7 +564,7 @@ export default [
     serie: SERIES.IRON,
     materials: []
   }, {
-    name: 'Pared de Piedra rústica',
+    name: 'Pared Piedra rústica',
     image: 'RoomTexWallStone00.png',
     height: 1,
     width: 1,
@@ -730,7 +736,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Pared Tropical',
+    name: 'Pared Playa Tropical',
     image: 'RoomSpWallTropical00.png',
     height: 1,
     width: 1,

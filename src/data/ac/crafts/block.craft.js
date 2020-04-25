@@ -72,7 +72,7 @@ export default [
     }]
   },
   {
-    name: 'Reloj de Pared Construcciones',
+    name: 'Reloj Pared Construcciones',
     image: 'FtrBlockClock.png',
     height: 1,
     width: 1,

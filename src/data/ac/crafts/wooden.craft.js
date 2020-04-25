@@ -58,7 +58,7 @@ export default [{
     quantity: 12
   }]
 }, {
-  name: 'Espejo de Madera',
+  name: 'Espejo de pie de Madera',
   image: 'FtrWoodenMirror.png',
   height: 1,
   width: 1,

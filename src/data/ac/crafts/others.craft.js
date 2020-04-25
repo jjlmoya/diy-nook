@@ -3,7 +3,7 @@ import SERIES from '../series.data'
 import CATEGORY from '../category.data'
 
 export default [{
-  name: 'Falda de Hierba',
+  name: 'Falda de Paja',
   image: 'BottomsTexSkirtBoxGrass0.png',
   height: 1,
   width: 1,
@@ -14,7 +14,7 @@ export default [{
     quantity: '7'
   }]
 }, {
-  name: 'Falda de paja',
+  name: 'Falda de Hojas',
   image: 'BottomsTexSkirtBoxGrass1.png',
   height: 1,
   width: 1,
@@ -111,7 +111,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Bañadero de Pájaros',
+  name: 'Bañadero para Pájaros',
   image: 'FtrBirdbus.png',
   height: 1,
   width: 1,
@@ -144,7 +144,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Fuego Campamento',
+  name: 'Fuego de Campamento',
   image: 'FtrBonfire.png',
   height: 1,
   width: 1,
@@ -285,7 +285,7 @@ export default [{
     quantity: 2
   }]
 }, {
-  name: 'Tenderete de Ropa',
+  name: 'Tendedero Añejo',
   image: 'FtrClothesline.png',
   height: 1,
   width: 1,
@@ -293,7 +293,7 @@ export default [{
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.BRANCH,
-    quantity: 2
+    quantity: 10
   }]
 }, {
   name: 'Zumo de Coco',
@@ -343,7 +343,7 @@ export default [{
     quantity: 4
   }]
 }, {
-  name: 'Mesa de Té',
+  name: 'Mesita de Té',
   image: 'FtrDiningtableJapan.png',
   height: 1,
   width: 1,
@@ -393,13 +393,22 @@ export default [{
     quantity: 2
   }]
 }, {
-  name: 'Contenedor con fuego',
+  name: 'Bañera Barril',
   image: 'FtrDrumcanbath.png',
   height: 1,
   width: 1,
   category: [CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
-  materials: []
+  materials: [{
+    ...MATERIALS.FURNITURE('Barril de Petróleo'),
+    quantity: 1
+  }, {
+    ...MATERIALS.FURNITURE('Fuego de Campamento'),
+    quantity: 1
+  }, {
+    ...MATERIALS.STONE,
+    quantity: 2
+  }]
 }, {
   name: 'Hojas Caídas',
   image: 'FtrFallenleaves.png',
@@ -607,7 +616,7 @@ export default [{
     quantity: 6
   }]
 }, {
-  name: 'Hierba Haribote',
+  name: 'Hierba Atrezo',
   image: 'FtrHariboteGrass.png',
   height: 1,
   width: 1,
@@ -621,7 +630,7 @@ export default [{
     quantity: 2
   }]
 }, {
-  name: 'Heno Haribote',
+  name: 'Seto Atrezo',
   image: 'FtrHariboteHedge.png',
   height: 1,
   width: 1,
@@ -635,7 +644,7 @@ export default [{
     quantity: 3
   }]
 }, {
-  name: 'Montaña Haribote',
+  name: 'Montaña Atrezo',
   image: 'FtrHariboteMountain.png',
   height: 1,
   width: 1,
@@ -649,7 +658,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Árbol Haribote',
+  name: 'Árbol Atrezo',
   image: 'FtrHariboteTree.png',
   height: 1,
   width: 1,
@@ -697,7 +706,7 @@ export default [{
     quantity: 10
   }]
 }, {
-  name: 'Trofeo de Caza',
+  name: 'Cabeza de Ciervo Decorativa',
   image: 'FtrHuntingtrophy.png',
   height: 1,
   width: 1,
@@ -736,7 +745,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Carrito de Carraca',
+  name: 'Carrito Carraca',
   image: 'FtrKatakatatoy.png',
   height: 1,
   width: 1,
@@ -775,7 +784,7 @@ export default [{
     quantity: 1
   }]
 }, {
-  name: 'Planta de Pared',
+  name: 'Maceta con Hiedra',
   image: 'FtrLeafWall.png',
   height: 1,
   width: 1,
@@ -878,11 +887,11 @@ export default [{
     quantity: 15
   }]
 }, {
-  name: 'Pez de Madera',
+  name: 'Pez de Madera de Percusión',
   image: 'FtrMokugyo.png',
   height: 1,
   width: 1,
-  category: [CATEGORY.TABLE_OBJECT],
+  category: [CATEGORY.TABLE_OBJECT, CATEGORY.MUSIC],
   serie: SERIES.NOOK,
   materials: [{
     ...MATERIALS.WOOD,
@@ -1242,7 +1251,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Estatua de Piedra',
+  name: 'León Guardián',
   image: 'FtrSekishishi.png',
   height: 1,
   width: 1,
@@ -1323,7 +1332,7 @@ export default [{
     quantity: 3
   }]
 }, {
-  name: 'Cruce de Caminos',
+  name: 'Poste Cruce de Caminos',
   image: 'FtrSignpostWorld.png',
   height: 1,
   width: 1,
@@ -1334,7 +1343,7 @@ export default [{
     quantity: 4
   }]
 }, {
-  name: 'Cartel Sencillo',
+  name: 'Cartel Sencillo de Madera',
   image: 'FtrSignWood.png',
   height: 1,
   width: 1,
@@ -1373,7 +1382,7 @@ export default [{
   serie: SERIES.BLOCK,
   materials: [{
     ...MATERIALS.WOOD,
-    quantity: 3
+    quantity: 8
   }]
 }, {
   name: 'Muñeco de Nieve',
@@ -1393,7 +1402,7 @@ export default [{
     quantity: 2
   }]
 }, {
-  name: 'Horno de Sauna',
+  name: 'Estufa de Sauna',
   image: 'FtrStoveSauna.png',
   height: 1,
   width: 1,
@@ -1438,7 +1447,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Terrario',
+  name: 'Terrario Botánico',
   image: 'FtrTerrarium.png',
   height: 1,
   width: 1,

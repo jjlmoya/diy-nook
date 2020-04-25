@@ -326,7 +326,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Varita de Anémona',
+    name: 'Varita Anémona',
     image: 'ToolStickAnemones.png',
     height: 1,
     width: 1,
@@ -341,7 +341,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Varita de Bambú',
+    name: 'Varita Bambú',
     image: 'ToolStickBamboo.png',
     height: 1,
     width: 1,
@@ -357,7 +357,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Varita de Crisantemo',
+    name: 'Varita Crisantemo',
     image: 'ToolStickChrysanthemum.png',
     height: 1,
     width: 1,
@@ -433,7 +433,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Varita de setas',
+    name: 'Varita Setas',
     image: 'ToolStickMushroom.png',
     height: 1,
     width: 1,
@@ -448,7 +448,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Varita de viola',
+    name: 'Varita viola',
     image: 'ToolStickPansy.png',
     height: 1,
     width: 1,
@@ -463,7 +463,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Varita de Rosa',
+    name: 'Varita Rosa',
     image: 'ToolStickRose.png',
     height: 1,
     width: 1,
@@ -478,7 +478,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Varita de Conchas',
+    name: 'Varita Conchas',
     image: 'ToolStickShell.png',
     height: 1,
     width: 1,
@@ -493,7 +493,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Varita de Nieve',
+    name: 'Varita Nieve',
     image: 'ToolStickSnow.png',
     height: 1,
     width: 1,
@@ -508,7 +508,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Varita de Árbol',
+    name: 'Vara de Ramas',
     image: 'ToolStickTree.png',
     height: 1,
     width: 1,
@@ -523,7 +523,7 @@ export default [
       quantity: 5
     }]
   }, {
-    name: 'Varita de Tulipán',
+    name: 'Varita Tulipán',
     image: 'ToolStickTulip.png',
     height: 1,
     width: 1,
@@ -538,7 +538,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Varita de Madera',
+    name: 'Varita Madera',
     image: 'ToolStickWood.png',
     height: 1,
     width: 1,
@@ -550,7 +550,7 @@ export default [
       quantity: 2
     }]
   }, {
-    name: 'Varita de Lirio',
+    name: 'Varita Lirio',
     image: 'ToolStickYuri.png',
     height: 1,
     width: 1,

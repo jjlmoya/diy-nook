@@ -3,7 +3,7 @@ import SERIES from '../series.data'
 import CATEGORY from '../category.data'
 
 export default [{
-  name: 'Valla de Bambú',
+  name: 'Valla Celosía de Bambú',
   image: 'ItemFenceBamboo.png',
   height: 1,
   width: 1,
@@ -69,7 +69,7 @@ export default [{
     quantity: 6
   }]
 }, {
-  name: 'Valla de hierro y piedra',
+  name: 'Verja de hierro y piedra',
   image: 'ItemFenceIronAndStone.png',
   height: 1,
   width: 1,
@@ -170,7 +170,7 @@ export default [{
     quantity: 6
   }]
 }, {
-  name: 'Valla de Piedra',
+  name: 'Cerca de Piedra',
   image: 'ItemFenceStone.png',
   height: 1,
   width: 1,

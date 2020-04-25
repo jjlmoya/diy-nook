@@ -68,7 +68,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Lámpara Concha Marina',
+    name: 'Lámparita Concha Marina',
     image: 'FtrShellLamp.png',
     height: 1,
     width: 1,
@@ -100,7 +100,7 @@ export default [
         quantity: 3
       }]
   }, {
-    name: 'Pantalla Concha Marina',
+    name: 'Mampara Concha Marina',
     image: 'FtrShellScreen.png',
     height: 1,
     width: 1,

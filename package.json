@@ -1,6 +1,6 @@
 {
   "name": "diy-nook",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Lista dinámica e interactiva de DIY del juego Animal Crossing New Horizons",
   "productName": "DIY Nook",
   "cordovaId": "es.jjlmoya.games.ac",

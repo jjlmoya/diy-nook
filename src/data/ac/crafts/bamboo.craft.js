@@ -4,7 +4,7 @@ import CATEGORY from '../category.data'
 
 export default [
   {
-    name: 'Mochila de Cesta',
+    name: 'Mochila Cesta',
     image: 'BagBackpackBasket0.png',
     height: 1,
     width: 1,
@@ -52,7 +52,7 @@ export default [
       quantity: 2
     }]
   }, {
-    name: 'Estante Bambú',
+    name: 'Barrera de Bambú',
     image: 'FtrBambooCarstop.png',
     height: 1,
     width: 1,
@@ -149,7 +149,7 @@ export default [
       quantity: 6
     }]
   }, {
-    name: 'Estantería de Bambú',
+    name: 'Estante de Bambú',
     image: 'FtrBambooShelf.png',
     height: 1,
     width: 1,
@@ -160,7 +160,7 @@ export default [
       quantity: 15
     }]
   }, {
-    name: 'Lámpara Brote de B.',
+    name: 'Lámpara Brote de Bambú',
     image: 'FtrBambooshootLamp.png',
     height: 1,
     width: 1,
@@ -177,7 +177,7 @@ export default [
       quantity: 4
     }]
   }, {
-    name: 'Somen Bambú',
+    name: 'Canal de Bambú para Fideos',
     image: 'FtrBambooSomen.png',
     height: 1,
     width: 1,
@@ -214,7 +214,7 @@ export default [
     }]
   },
   {
-    name: 'Alfombra de Bambú',
+    name: 'Alfombra Bambú Clara',
     image: 'RugRectBambooM00.png',
     height: 1,
     width: 1,
@@ -225,7 +225,7 @@ export default [
       quantity: 6
     }]
   }, {
-    name: 'Alfombra B. Oscura',
+    name: 'Alfombra Bambú Oscura',
     image: 'RugRectBambooM01.png',
     height: 1,
     width: 1,
@@ -236,7 +236,7 @@ export default [
       quantity: 6
     }]
   }, {
-    name: 'Hervidor de Bambú',
+    name: 'Set de vaporera apilables',
     image: 'FtrBasketsteamer.png',
     height: 1,
     width: 1,

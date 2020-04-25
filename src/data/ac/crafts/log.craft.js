@@ -26,7 +26,7 @@ export default [
       quantity: 30
     }]
   }, {
-    name: 'Reloj Pared Leño',
+    name: 'Reloj de Pared Leño',
     image: 'FtrLogClockWall.png',
     height: 1,
     width: 1,
@@ -92,7 +92,7 @@ export default [
       quantity: 4
     }]
   }, {
-    name: 'Mesa Comedor Leño',
+    name: 'Mesa de Comedor Leño',
     image: 'FtrLogTableL.png',
     height: 1,
     width: 1,

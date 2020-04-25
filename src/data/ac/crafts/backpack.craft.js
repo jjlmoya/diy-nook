@@ -16,13 +16,19 @@ const BACKPACK_GRASS = {
 }
 
 const BACKPACK_WOOD = {
-  name: 'Bolsito Madera',
+  name: 'Bolsito Troncos',
   image: 'BagBackpackWood0.png',
   height: 1,
   width: 1,
   category: [CATEGORY.CLOTH, CATEGORY.BAG],
   serie: SERIES.WOODEN,
-  materials: []
+  materials: [{
+    ...MATERIALS.WOOD,
+    quantity: 3
+  }, {
+    ...MATERIALS.SOLID_WOOD,
+    quantity: 5
+  }]
 }
 
 const BACKPACK_ACORN = {

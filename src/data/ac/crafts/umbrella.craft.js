@@ -4,7 +4,7 @@ import CATEGORY from '../category.data'
 
 export default [
   {
-    name: 'Estante de Paraguas',
+    name: 'Paragüero Cuadrado',
     image: 'FtrUmbrellastand.png',
     height: 1,
     width: 1,

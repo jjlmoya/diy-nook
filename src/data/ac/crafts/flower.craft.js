@@ -85,7 +85,13 @@ export default [
     width: 1,
     category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.FLOWER,
-    materials: []
+    materials: [{
+      ...MATERIALS.MUM_YELLOW,
+      quantity: 3
+    }, {
+      ...MATERIALS.HERB,
+      quantity: 10
+    }]
   }, {
     name: 'Caja sorpresa Tulipán',
     image: 'FtrFlowerSurprisedbox.png',
@@ -101,7 +107,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Ramo de Flores',
+    name: 'Ramillete Colgante',
     image: 'FtrFlowerSwag.png',
     height: 1,
     width: 1,

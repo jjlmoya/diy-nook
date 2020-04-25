@@ -117,7 +117,7 @@ export default [
       quantity: 8
     }]
   }, {
-    name: 'Casco de Oro',
+    name: 'Yelmo de Oro',
     image: 'CapFullfaceKnightGold.png',
     height: 1,
     width: 1,

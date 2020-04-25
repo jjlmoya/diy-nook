@@ -30,7 +30,7 @@ const CAP_COSTUME_STAR = {
   }]
 }
 const CAP_KNIGHT_IRON = {
-  name: 'Casco de Hierro',
+  name: 'Yelmo de Hierro',
   image: 'CapFullfaceKnightIron.png',
   height: 1,
   width: 1,
@@ -327,3 +327,5 @@ export default [
   CAP_HYACINTH_2,
   CAP_HYACINTH_3
 ]
+
+// TODO: Faltan Gorros de Flores
