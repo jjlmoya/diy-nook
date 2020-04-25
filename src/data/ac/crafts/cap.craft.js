@@ -66,7 +66,7 @@ const CAP_APPLE = {
   }]
 }
 const CAP_CHERRY = {
-  name: 'Gorro Ceerza',
+  name: 'Gorro Cerza',
   image: 'CapHatCherry0.png',
   height: 1,
   width: 1,
@@ -194,7 +194,7 @@ const CAP_ANEMONE_3 = {
 }
 
 const CAP_COSMOS_1 = {
-  name: 'Guirlanlda Cosmos',
+  name: 'Guirnalda Cosmos',
   image: 'CapOrnamentCosmos1.png',
   height: 1,
   width: 1,

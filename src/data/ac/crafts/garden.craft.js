@@ -4,7 +4,7 @@ import CATEGORY from '../category.data'
 
 export default [
   {
-    name: 'Silla de Jardín Natural',
+    name: 'Silla de Madera Natural',
     image: 'FtrGardenChairNatural.png',
     height: 1,
     width: 1,

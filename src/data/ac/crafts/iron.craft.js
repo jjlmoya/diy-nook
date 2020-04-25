@@ -48,7 +48,7 @@ export default [
       quantity: 8
     }]
   }, {
-    name: 'Mesa de Jardín',
+    name: 'Mesa de Forja',
     image: 'FtrIrongardenTable.png',
     height: 1,
     width: 1,

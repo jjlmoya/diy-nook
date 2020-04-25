@@ -43,7 +43,7 @@ export default [
       quantity: 4
     }]
   }, {
-    name: 'Sillita de Construcciones',
+    name: 'Silla de Construcciones',
     image: 'FtrBlockChairS.png',
     height: 1,
     width: 1,
