@@ -558,7 +558,7 @@ export default [
     serie: SERIES.IRON,
     materials: []
   }, {
-    name: 'Pared Piedra',
+    name: 'Pared de Piedra rústica',
     image: 'RoomTexWallStone00.png',
     height: 1,
     width: 1,
@@ -566,7 +566,10 @@ export default [
     serie: SERIES.STONE,
     materials: [{
       ...MATERIALS.STONE,
-      quantity: 10
+      quantity: 5
+    }, {
+      ...MATERIALS.CLAY,
+      quantity: 5
     }]
   }, {
     name: 'Pared Madera Salvaje',

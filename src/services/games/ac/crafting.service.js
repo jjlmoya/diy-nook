@@ -17,6 +17,7 @@ export default class CraftingService {
     this.crafts = this.search ? this.filterByName() : this.crafts
     this.ownedCount = this.getOwnedsByCrafts().length
     this.currentMaxItems = this.filtered ? this.filtered.length : this.maxItem
+    this.crafts = this.crafts.sort((a, b) => (this.normalizeString(a.name) > this.normalizeString(b.name)) ? 1 : -1)
   }
 
   normalizeString (string) {

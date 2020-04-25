@@ -79,7 +79,7 @@ export default [
     serie: SERIES.FLOWER,
     materials: []
   }, {
-    name: 'Taburete Floral',
+    name: 'Puff Crisantemo',
     image: 'FtrFlowerStoolS.png',
     height: 1,
     width: 1,

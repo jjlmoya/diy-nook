@@ -117,7 +117,7 @@ export default [
     category: [CATEGORY.FURNITURE, CATEGORY.MUSIC],
     serie: SERIES.FRUIT,
     materials: [{
-      ...MATERIALS.CHERRY_PETALS,
+      ...MATERIALS.CHERRY,
       quantity: 10
     }, {
       ...MATERIALS.IRON_NUGGET,
