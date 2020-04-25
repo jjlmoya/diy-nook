@@ -573,7 +573,7 @@ export default [{
   category: [CATEGORY.EXTERIOR],
   serie: SERIES.IRON,
   materials: [{
-    ...MATERIALS.IRON,
+    ...MATERIALS.IRON_NUGGET,
     quantity: 8
   }, {
     ...MATERIALS.WOOD,
