@@ -37,7 +37,7 @@ export default [
       quantity: 8
     }]
   }, {
-    name: 'Silla de Jardín',
+    name: 'Silla de Forja',
     image: 'FtrIrongardenChair.png',
     height: 1,
     width: 1,

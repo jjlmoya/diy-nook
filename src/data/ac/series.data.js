@@ -99,7 +99,7 @@ const FENCES = {
 
 const NOOK = {
   id: 'nook',
-  name: 'Otros'
+  name: '[Otros]'
 }
 const TOOLS = {
   id: 'tools',
