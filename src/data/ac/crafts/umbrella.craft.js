@@ -45,7 +45,7 @@ export default [
     category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
     serie: SERIES.FRUIT,
     materials: [{
-      ...MATERIALS.CHERRY_PETALS,
+      ...MATERIALS.CHERRY,
       quantity: 7
     }]
   }, {

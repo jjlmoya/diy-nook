@@ -277,7 +277,7 @@ export default [
     category: [CATEGORY.CARPET],
     serie: SERIES.FRUIT,
     materials: [{
-      ...MATERIALS.CHERRY_PETALS,
+      ...MATERIALS.CHERRY,
       quantity: 7
     }]
   }, {
