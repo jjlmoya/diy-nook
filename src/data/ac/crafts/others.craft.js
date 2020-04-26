@@ -1464,7 +1464,7 @@ export default [{
     quantity: 2
   }]
 }, {
-  name: 'Terrario colgante',
+  name: 'Terrario Botánico Colgante',
   image: 'FtrTerrariumWall.png',
   height: 1,
   width: 1,
