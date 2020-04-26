@@ -169,7 +169,7 @@ export default [{
     quantity: '5'
   }]
 }, {
-  name: 'Estante Bonsái',
+  name: 'Banco de Bonsái',
   image: 'FtrBonsaiShelf.png',
   height: 1,
   width: 1,
@@ -583,13 +583,16 @@ export default [{
     quantity: 1
   }]
 }, {
-  name: 'Tumba Europea',
+  name: 'Tumba Clásica',
   image: 'FtrGravestoneEuropean.png',
   height: 1,
   width: 1,
   category: [CATEGORY.EXTERIOR],
   serie: SERIES.STONE,
-  materials: []
+  materials: [{
+    ...MATERIALS.STONE,
+    quantity: 30
+  }]
 }, {
   name: 'Tumba Japonesa',
   image: 'FtrGravestoneJapan.png',

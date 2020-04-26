@@ -42,11 +42,11 @@ export default [
     serie: SERIES.MUSHROOM,
     materials: UNKNOWN
   }, {
-    name: 'Parasol Seta',
+    name: 'Mueble Parasol Seta',
     image: 'FtrMushroomParasol.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.CLOTH, CATEGORY.UMBRELLA],
+    category: [CATEGORY.FURNITURE],
     serie: SERIES.MUSHROOM,
     materials: UNKNOWN
   }, {

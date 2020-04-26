@@ -332,7 +332,7 @@ export default [
     height: 1,
     width: 1,
     category: [CATEGORY.WALL],
-    serie: SERIES.BAMBOO,
+    serie: SERIES.NOOK,
     materials: [
       {
         ...MATERIALS.FLEXIBLE_WOOD,
@@ -344,7 +344,7 @@ export default [
     height: 1,
     width: 1,
     category: [CATEGORY.WALL],
-    serie: SERIES.BAMBOO,
+    serie: SERIES.NOOK,
     materials: [{
       ...MATERIALS.FLEXIBLE_WOOD,
       quantity: 15

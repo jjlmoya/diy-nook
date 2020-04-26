@@ -69,7 +69,7 @@ export default [
       quantity: 20
     }]
   }, {
-    name: 'Traje Espacial',
+    name: 'Astronauta',
     image: 'FtrSpacesuit.png',
     height: 1,
     width: 1,
