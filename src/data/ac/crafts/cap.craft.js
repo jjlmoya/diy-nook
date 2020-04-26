@@ -66,7 +66,7 @@ const CAP_APPLE = {
   }]
 }
 const CAP_CHERRY = {
-  name: 'Gorro Cerza',
+  name: 'Gorro Cereza',
   image: 'CapHatCherry0.png',
   height: 1,
   width: 1,
