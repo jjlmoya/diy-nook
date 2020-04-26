@@ -48,7 +48,7 @@ export default [
       quantity: 8
     }]
   }, {
-    name: 'Cubertería de Oro',
+    name: 'Servicio de Mesa dorado',
     image: 'FtrGoldDishes.png',
     height: 1,
     width: 1,

@@ -93,7 +93,7 @@ export default [
       quantity: 4
     }]
   }, {
-    name: 'Carreta de Flores',
+    name: 'Carro de Flores',
     image: 'FtrGardenwagon.png',
     height: 1,
     width: 1,

@@ -4,7 +4,7 @@ import CATEGORY from '../category.data'
 
 export default [
   {
-    name: 'Escudo de Armas',
+    name: 'Placa Escudo de Armas',
     image: 'FtrDoorOrnamentCrest.png',
     height: 1,
     width: 1,
@@ -82,7 +82,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Corona Anémona Mix',
+    name: 'Corona Anémona Vistosa',
     image: 'FtrDoorOrnamentWreathAnemoneMix.png',
     height: 1,
     width: 1,
@@ -138,7 +138,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Corona Cosmos Mix',
+    name: 'Corona Cosmos Vistosa',
     image: 'FtrDoorOrnamentWreathCosmosMix.png',
     height: 1,
     width: 1,
@@ -189,7 +189,7 @@ export default [
       quantity: 2
     }]
   }, {
-    name: 'Corona de Jacintos',
+    name: 'Corona Jacintos',
     image: 'FtrDoorOrnamentWreathHyacinth.png',
     height: 1,
     width: 1,
@@ -206,7 +206,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Corona Jacintos Mezcla',
+    name: 'Corona Jacintos Vistosa',
     image: 'FtrDoorOrnamentWreathHyacinthMix.png',
     height: 1,
     width: 1,
@@ -234,7 +234,7 @@ export default [
       quantity: 10
     }]
   }, {
-    name: 'Corona de Hielo',
+    name: 'Corona Hielo',
     image: 'FtrDoorOrnamentWreathIce.png',
     height: 1,
     width: 1,
@@ -242,7 +242,7 @@ export default [
     serie: SERIES.ICE,
     materials: []
   }, {
-    name: 'Corona de Crisantemos',
+    name: 'Corona Crisantemos',
     image: 'FtrDoorOrnamentWreathMum.png',
     height: 1,
     width: 1,
@@ -259,7 +259,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Corona Crisantemos Mezcla',
+    name: 'Corona Crisantemos Vistosa',
     image: 'FtrDoorOrnamentWreathMumMix.png',
     height: 1,
     width: 1,
@@ -320,7 +320,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Corona Viola Mix',
+    name: 'Corona Viola Vistosa',
     image: 'FtrDoorOrnamentWreathPansyMix.png',
     height: 1,
     width: 1,
@@ -337,7 +337,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Corona Viola Rara',
+    name: 'Corona Viola Morada',
     image: 'FtrDoorOrnamentWreathPansyRare.png',
     height: 1,
     width: 1,
@@ -379,7 +379,7 @@ export default [
       quantity: 10
     }]
   }, {
-    name: 'Corona Rosa Mezcla',
+    name: 'Corona Rosa Vistosa',
     image: 'FtrDoorOrnamentWreathRoseMix.png',
     height: 1,
     width: 1,
@@ -470,7 +470,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Corona Tulipán Mezcla',
+    name: 'Corona Tulipán Vistosa',
     image: 'FtrDoorOrnamentWreathTulipMix.png',
     height: 1,
     width: 1,
@@ -515,7 +515,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Corona Lirio Mezcla',
+    name: 'Corona Lirio Vistosa',
     image: 'FtrDoorOrnamentWreathYuriMix.png',
     height: 1,
     width: 1,
@@ -543,7 +543,7 @@ export default [
       quantity: 10
     }]
   }, {
-    name: 'Placa Bienvenida Hueso',
+    name: 'Placa Hueso',
     image: 'FtrDoorPlateBone.png',
     height: 1,
     width: 1,

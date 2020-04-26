@@ -54,7 +54,7 @@ export default [
       quantity: 4
     }]
   }, {
-    name: 'Silla Melocotón',
+    name: 'Sillón Melocotón',
     image: 'FtrFruitsChairPeach.png',
     height: 1,
     width: 1,
@@ -68,7 +68,7 @@ export default [
       quantity: 5
     }]
   }, {
-    name: 'Reloj Naranja',
+    name: 'Reloj de pared Naranja',
     image: 'FtrFruitsClockW.png',
     height: 1,
     width: 1,
@@ -124,7 +124,7 @@ export default [
       quantity: 2
     }]
   }, {
-    name: 'Mesa Naranja',
+    name: 'Mesa auxiliar Naranja',
     image: 'FtrFruitsTableS.png',
     height: 1,
     width: 1,
@@ -215,7 +215,7 @@ export default [
       quantity: 7
     }]
   }, {
-    name: 'Vestido Manzana',
+    name: 'Vestido Manzanas',
     image: 'TopsTexOnepieceAlineNApple0.png',
     height: 1,
     width: 1,
@@ -226,7 +226,7 @@ export default [
       quantity: 8
     }]
   }, {
-    name: 'Vestido Melocotón',
+    name: 'Vestido Melocotones',
     image: 'TopsTexOnepieceAlineNPeach0.png',
     height: 1,
     width: 1,
@@ -248,7 +248,7 @@ export default [
       quantity: 8
     }]
   }, {
-    name: 'Vestido Cereza',
+    name: 'Vestido Cerezas',
     image: 'TopsTexOnepieceAlineNCherry0.png',
     height: 1,
     width: 1,
@@ -259,7 +259,7 @@ export default [
       quantity: 8
     }]
   }, {
-    name: 'Vestido Naranja',
+    name: 'Vestido Naranjas',
     image: 'TopsTexOnepieceAlineNOrange.png',
     height: 1,
     width: 1,

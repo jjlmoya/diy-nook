@@ -211,7 +211,7 @@ export default [{
     quantity: 10
   }]
 }, {
-  name: 'Búmeran',
+  name: 'Bumerán',
   image: 'FtrBoomerang.png',
   height: 1,
   width: 1,
@@ -343,7 +343,7 @@ export default [{
     quantity: 4
   }]
 }, {
-  name: 'Mesita de Té',
+  name: 'Mesita',
   image: 'FtrDiningtableJapan.png',
   height: 1,
   width: 1,
@@ -499,7 +499,7 @@ export default [{
   serie: SERIES.NOOK,
   materials: []
 }, {
-  name: 'Madera para hoguera',
+  name: 'Pila de leña',
   image: 'FtrFirewood.png',
   height: 1,
   width: 1,
@@ -605,7 +605,7 @@ export default [{
     quantity: 30
   }]
 }, {
-  name: 'Bomba manual',
+  name: 'Bomba de Agua',
   image: 'FtrHandpump.png',
   height: 1,
   width: 1,
@@ -686,7 +686,7 @@ export default [{
     quantity: 20
   }]
 }, {
-  name: 'Robot',
+  name: 'Robot Gigante',
   image: 'FtrHerorobot.png',
   height: 1,
   width: 1,
@@ -965,7 +965,7 @@ export default [{
     quantity: 2
   }]
 }, {
-  name: 'Porta Partituras',
+  name: 'Atril para Partituras',
   image: 'FtrMusicstand.png',
   height: 1,
   width: 1,
@@ -1307,7 +1307,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Señal',
+  name: 'Poster Indicador',
   image: 'FtrSignpost.png',
   height: 1,
   width: 1,
@@ -1492,7 +1492,7 @@ export default [{
     quantity: 10
   }]
 }, {
-  name: 'Caja de herramientas',
+  name: 'Caja herramientas Madera',
   image: 'FtrToolboxWood.png',
   height: 1,
   width: 1,
@@ -1520,7 +1520,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Basura de Madera',
+  name: 'Papelera de Madera',
   image: 'FtrTrashboxWood.png',
   height: 1,
   width: 1,
@@ -1703,7 +1703,7 @@ export default [{
   serie: SERIES.NOOK,
   materials: []
 }, {
-  name: 'Mesa de Trabajo Universidad',
+  name: 'Banco bricolaje Universidad',
   image: 'FtrWorkbenchIronwood.png',
   height: 1,
   width: 1,
@@ -1795,7 +1795,7 @@ export default [{
     quantity: 6
   }]
 }, {
-  name: 'Botas de Hierro',
+  name: 'Botas',
   image: 'ShoesKneeKnightIron.png',
   height: 1,
   width: 1,
@@ -1817,7 +1817,7 @@ export default [{
     quantity: 2
   }]
 }, {
-  name: 'Armadura de Hierro',
+  name: 'Armadura',
   image: 'TopsTexOnepieceOverallLPlatearmorIron.png',
   height: 1,
   width: 1,

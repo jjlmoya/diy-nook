@@ -4,7 +4,7 @@ import CATEGORY from '../category.data'
 
 export default [
   {
-    name: 'Arco Conchas Marina',
+    name: 'Arco Conchas Marinas',
     image: 'FtrShellArch.png',
     height: 1,
     width: 1,
@@ -37,7 +37,7 @@ export default [
       }
     ]
   }, {
-    name: 'Cama Conchas Marina',
+    name: 'Cama Conchas Marinas',
     image: 'FtrShellBedW.png',
     height: 1,
     width: 1,
@@ -100,7 +100,7 @@ export default [
         quantity: 3
       }]
   }, {
-    name: 'Mampara Concha Marina',
+    name: 'Mampara Concha Marinas',
     image: 'FtrShellScreen.png',
     height: 1,
     width: 1,
@@ -142,7 +142,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Alfombra Conchas Marinas',
+    name: 'Alfombra Concha',
     image: 'RugOtherShellM00.png',
     height: 1,
     width: 1,

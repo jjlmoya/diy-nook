@@ -186,7 +186,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Suelo Estelar',
+    name: 'Suelo Estrellas Plateadas',
     image: 'RoomTexFloorSandStar00.png',
     height: 1,
     width: 1,
@@ -406,7 +406,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Pared Biblioteca Oscura',
+    name: 'Pared Biblioteca Clásica',
     image: 'RoomTexWallLibrary00.png',
     height: 1,
     width: 1,
@@ -417,7 +417,7 @@ export default [
       quantity: 10
     }]
   }, {
-    name: 'Pared Biblioteca Clara',
+    name: 'Pared Biblioteca de Manga',
     image: 'RoomTexWallLibrary01.png',
     height: 1,
     width: 1,
@@ -428,7 +428,7 @@ export default [
       quantity: 10
     }]
   }, {
-    name: 'Pared Leño',
+    name: 'Pared Cabaña',
     image: 'RoomTexWallLog00.png',
     height: 1,
     width: 1,
@@ -578,7 +578,7 @@ export default [
       quantity: 5
     }]
   }, {
-    name: 'Pared Madera Salvaje',
+    name: 'Pared madera de deriva',
     image: 'RoomTexWallWildWood00.png',
     height: 1,
     width: 1,
@@ -708,7 +708,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Pared Estelar',
+    name: 'Pared Estrellas Plateadas',
     image: 'RoomSpWallStarPrint00.png',
     height: 1,
     width: 1,

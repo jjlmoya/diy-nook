@@ -16,7 +16,7 @@ const BACKPACK_GRASS = {
 }
 
 const BACKPACK_WOOD = {
-  name: 'Bolsito Troncos',
+  name: 'Mochila Troncos',
   image: 'BagBackpackWood0.png',
   height: 1,
   width: 1,

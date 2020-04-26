@@ -38,7 +38,7 @@ export default [
       quantity: 7
     }]
   }, {
-    name: 'Paraguas Cereza',
+    name: 'Paraguas Cerezas',
     image: 'UmbrellaCherry0.png',
     height: 1,
     width: 1,

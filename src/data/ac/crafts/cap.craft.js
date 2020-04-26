@@ -30,7 +30,7 @@ const CAP_COSTUME_STAR = {
   }]
 }
 const CAP_KNIGHT_IRON = {
-  name: 'Yelmo de Hierro',
+  name: 'Yelmo',
   image: 'CapFullfaceKnightIron.png',
   height: 1,
   width: 1,
@@ -42,7 +42,7 @@ const CAP_KNIGHT_IRON = {
   }]
 }
 const CAP_AJIRO_BEIGE = {
-  name: 'Gorro de Bambú',
+  name: 'Gorro de Bambú cónico',
   image: 'CapHatAjiroBeige.png',
   height: 1,
   width: 1,

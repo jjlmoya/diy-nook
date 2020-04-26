@@ -108,7 +108,7 @@ export default [{
     quantity: 15
   }]
 }, {
-  name: 'Mesa Centro de Madera',
+  name: 'Mesa de Centro de Madera',
   image: 'FtrWoodenTableM.png',
   height: 1,
   width: 1,

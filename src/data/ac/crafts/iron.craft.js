@@ -100,11 +100,11 @@ export default [
       quantity: 14
     }]
   }, {
-    name: 'Mesa de Hierro',
+    name: 'Escritorio de Hierro',
     image: 'FtrIronTableM.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.FURNITURE, CATEGORY.TABLE],
+    category: [CATEGORY.FURNITURE, CATEGORY.DESKTOP, CATEGORY.TABLE],
     serie: SERIES.IRON,
     materials: [{
       ...MATERIALS.IRON_NUGGET,

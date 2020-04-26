@@ -4,7 +4,7 @@ import CATEGORY from '../category.data'
 
 export default [
   {
-    name: 'FtrStandflower',
+    name: 'Arreglo Floral con Pie',
     image: 'FtrStandflower.png',
     height: 1,
     width: 1,
