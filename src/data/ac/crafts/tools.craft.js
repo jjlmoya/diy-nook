@@ -489,7 +489,7 @@ export default [
       ...MATERIALS.STAR_FRAGMENT,
       quantity: 3
     }, {
-      ...MATERIALS.SUMMER_SHELL,
+      ...MATERIALS.SHELL_SUMMER,
       quantity: 3
     }]
   }, {

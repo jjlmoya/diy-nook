@@ -581,13 +581,16 @@ export default [
       quantity: 5
     }]
   }, {
-    name: 'Pared madera de deriva',
+    name: 'Panelado madera de deriva',
     image: 'RoomTexWallWildWood00.png',
     height: 1,
     width: 1,
     category: [CATEGORY.WALL],
     serie: SERIES.NOOK,
-    materials: []
+    materials: [{
+      ...MATERIALS.WOOD,
+      quantity: 15
+    }]
   },
   {
     name: 'Suelo Acuario',

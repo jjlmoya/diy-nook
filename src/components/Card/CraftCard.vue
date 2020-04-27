@@ -8,9 +8,10 @@
         </div>
         <img class="craft-card__image" :src="`${assets}ac/crafting/${image}`">
         <div class="craft-card__materials">
-            <div v-for="material in materials" :key="material.name" class="material__wrap">
+            <div v-for="material in materials" :key="material.name" class="material__wrap" @click="toggleActiveMaterial">
                 <img class="material__image" :alt="material.name" :src="`${assets}ac/crafting/${material.image}`">
                 <span>{{ material.quantity }}</span>
+                <div class="popover">{{material.name}}</div>
             </div>
         </div>
     </div>
@@ -38,6 +39,10 @@ export default {
     assets: {
       type: String,
       default: './statics/'
+    },
+    activeMaterial: {
+      type: String,
+      default: ''
     }
   },
   data () {
@@ -63,6 +68,19 @@ export default {
         return globalOwned.findIndex(e => e === this.image) > -1
       }
       return false
+    },
+    toggleActiveMaterial (event) {
+      const target = event.target
+      const parent = target.closest('.material__wrap')
+      const active = document.querySelector('.material__wrap.is-active')
+      if (parent === active) {
+        active.classList.remove('is-active')
+      } else {
+        if (active) {
+          active.classList.remove('is-active')
+        }
+        parent.classList.toggle('is-active')
+      }
     },
     toggleOwned (id) {
       let globalOwned = localStorage.owned

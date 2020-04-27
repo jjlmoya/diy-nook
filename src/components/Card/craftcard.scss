@@ -73,6 +73,44 @@
   .material__wrap {
     display: flex;
     align-items: center;
+    position: relative;
+    .popover {
+      display: none
+    }
+    &.is-active {
+      .popover {
+        display: inline-block;
+        position: absolute;
+        background-color: white;
+        padding: 5px;
+        border-radius: 5px;
+        line-height: 10px;
+        text-align: center;
+        font-weight: normal;
+        font-size: 12px;
+        bottom: 40px;
+        &::after {
+          position: absolute;
+          display: block;
+          content: ' ';
+          width: 10px;
+          height: 10px;
+          background-color: white;
+          bottom: -7px;
+          right: 50%;
+        }
+        &::before {
+          position: absolute;
+          display: block;
+          content: ' ';
+          width: 5px;
+          height: 5px;
+          background-color: white;
+          bottom: -15px;
+          right: 60%;
+        }
+      }
+    }
 
     span {
       padding: 0 1px;

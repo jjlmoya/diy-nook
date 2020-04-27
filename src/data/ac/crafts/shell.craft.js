@@ -96,7 +96,7 @@ export default [
         quantity: 2
       },
       {
-        ...MATERIALS.SEA_SHELL,
+        ...MATERIALS.VENUS,
         quantity: 3
       }]
   }, {
