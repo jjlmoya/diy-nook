@@ -68,12 +68,12 @@ const CHERRY_PETALS = {
 }
 
 const PINECONE = {
-  name: 'piña',
+  name: 'Piña',
   image: 'pinecone.png'
 }
 
 const ICE = {
-  name: 'Copo de niev',
+  name: 'Copo de nieve',
   image: 'ice.png'
 }
 
@@ -83,7 +83,7 @@ const ICE_XL = {
 }
 
 const ELEGANT_MUSHROOM = {
-  name: 'Seta legante',
+  name: 'Seta elegante',
   image: 'elegant-mushroom.png'
 }
 
