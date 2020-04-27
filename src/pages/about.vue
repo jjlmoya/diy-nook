@@ -25,7 +25,8 @@
         <div class="about__description">
             <p>La gran colección de datos que tiene esta aplicación ha sido conseguida con una gran celeridad gracias a la comunidad de <strong>Discord de ACSpainWeb (NoRyKo, Virgina1990, Khaleesi, Aroa, redbelcebu, Karaphan, JerryG, Zissecko, elpilla, Chimpoko, DaniSkyWalker86 y perdón si me olvido alguno) </strong></p>
             <p>Gracias también a los <strong>consejos de UX de Albert_90 y principio de la idea de Mario</strong></p>
-            <p>Y en especial un agradecimiento profundo a <strong>Pesadilla, webmaster de <a href="https://acspainweb.es/">AC Spain Web</a> </strong>por todas las horas dedicadas a la información, imágenes, ideas, promoción y un largo, etc.</p>
+            <p>Y en especial un agradecimiento profundo a <strong>Pesadilla, webmaster de <a href="https://acspainweb.es/">AC Spain Web</a>
+            </strong> por todas las horas dedicadas a la información, imágenes, ideas, promoción y un largo, etc.</p>
              <p>A <strong>Seru y Kirei</strong> por sus 300 correcciones que han subido la calidad y la exactitud.</p>
             <p>A <strong>Nintendo</strong> por su juego y por sus assets.</p>
           </div>

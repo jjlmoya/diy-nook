@@ -14,6 +14,7 @@ import GOLD from '../../data/ac/crafts/gold.craft'
 import ILLUMI from '../../data/ac/crafts/illumi.craft'
 import MUSHROOM from '../../data/ac/crafts/mushroom.craft'
 import NUT from '../../data/ac/crafts/nut.craft'
+import EASTER from '../../data/ac/crafts/easter.craft'
 import ICE from '../../data/ac/crafts/ice.craft'
 import IRON from '../../data/ac/crafts/iron.craft'
 import KITS from '../../data/ac/crafts/kits.craft'
@@ -41,6 +42,7 @@ const CRAFTS = [
   ...IRON,
   ...KITS,
   ...LOG,
+  ...EASTER,
   ...ROOM,
   ...SHELL,
   ...SPACE,

@@ -23,6 +23,12 @@ const ICE = {
   id: 'ice',
   name: 'Hielo'
 }
+
+const EASTER = {
+  id: 'easter',
+  name: 'Caza del Huevo'
+}
+
 const GRASS = {
   id: 'grass',
   name: 'Hierba'
@@ -135,5 +141,6 @@ export default {
   SPACE,
   TOOLS,
   FENCES,
+  EASTER,
   NOOK
 }
