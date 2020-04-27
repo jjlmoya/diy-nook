@@ -556,13 +556,16 @@ export default [
       quantity: 12
     }]
   }, {
-    name: 'Pared Acero',
+    name: 'Pared Viga de Hierro',
     image: 'RoomTexWallSteel00.png',
     height: 1,
     width: 1,
     category: [CATEGORY.WALL],
     serie: SERIES.IRON,
-    materials: []
+    materials: [{
+      ...MATERIALS.IRON_NUGGET,
+      quantity: 8
+    }]
   }, {
     name: 'Pared Piedra rústica',
     image: 'RoomTexWallStone00.png',
