@@ -1695,13 +1695,28 @@ export default [{
     quantity: 3
   }]
 }, {
-  name: 'Banco de trabajo',
+  name: 'Banco de bricolaje',
   image: 'FtrWorkbench.png',
   height: 1,
   width: 1,
   category: [CATEGORY.FURNITURE, CATEGORY.EXTERIOR],
   serie: SERIES.NOOK,
-  materials: []
+  materials: [{
+    ...MATERIALS.WOOD,
+    quantity: 5
+  }, {
+    ...MATERIALS.FLEXIBLE_WOOD,
+    quantity: 5
+  }, {
+    ...MATERIALS.SOLID_WOOD,
+    quantity: 5
+  }, {
+    ...MATERIALS.IRON_NUGGET,
+    quantity: 3
+  }, {
+    ...MATERIALS.FURNITURE('Banquito de bricolaje'),
+    quantity: 1
+  }]
 }, {
   name: 'Banco bricolaje Universidad',
   image: 'FtrWorkbenchIronwood.png',

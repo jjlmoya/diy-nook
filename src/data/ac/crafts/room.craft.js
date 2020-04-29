@@ -458,15 +458,21 @@ export default [
       quantity: 15
     }]
   }, {
-    name: 'Pared Madera',
+    name: 'Pared Listones',
     image: 'RoomTexWallMixwood00.png',
     height: 1,
     width: 1,
     category: [CATEGORY.WALL],
     serie: SERIES.WOODEN,
     materials: [{
+      ...MATERIALS.FLEXIBLE_WOOD,
+      quantity: 5
+    }, {
+      ...MATERIALS.SOLID_WOOD,
+      quantity: 5
+    }, {
       ...MATERIALS.WOOD,
-      quantity: 15
+      quantity: 5
     }]
   }, {
     name: 'Pared Setas',

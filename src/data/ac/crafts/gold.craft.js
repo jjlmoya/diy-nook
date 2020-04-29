@@ -106,7 +106,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Armadura de Oro',
+    name: 'Armadura Dorada',
     image: 'TopsTexOnepieceOverallLPlatearmorGold.png',
     height: 1,
     width: 1,
@@ -117,7 +117,7 @@ export default [
       quantity: 8
     }]
   }, {
-    name: 'Yelmo de Oro',
+    name: 'Yelmo Dorado',
     image: 'CapFullfaceKnightGold.png',
     height: 1,
     width: 1,

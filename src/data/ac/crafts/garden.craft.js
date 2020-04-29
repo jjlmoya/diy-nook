@@ -79,7 +79,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Mesita de Madera Natural',
+    name: 'Mesa de Madera Natural',
     image: 'FtrGardenTableSNatural.png',
     height: 1,
     width: 1,
