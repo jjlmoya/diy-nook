@@ -37,7 +37,7 @@ export default [
       quantity: 2
     }]
   }, {
-    name: 'Tumba dorada',
+    name: 'Sarcófago de Oro',
     image: 'FtrGoldCoffin.png',
     height: 1,
     width: 1,
@@ -95,7 +95,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Botas de Oro',
+    name: 'Escarpe de Oro',
     image: 'ShoesKneeKnightGold.png',
     height: 1,
     width: 1,

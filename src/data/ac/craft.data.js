@@ -28,6 +28,8 @@ import UMBRELLA from '../../data/ac/crafts/umbrella.craft'
 import WOODEN from '../../data/ac/crafts/wooden.craft'
 import ZODIAC from '../../data/ac/crafts/zodiac.craft'
 import OTHERS from '../../data/ac/crafts/others.craft'
+import FLOWER_CAP from '../../data/ac/crafts/cap-flower.craft'
+
 const CRAFTS = [
   ...ACCESORY,
   ...BACKPACK,
@@ -58,7 +60,9 @@ const CRAFTS = [
   ...GOLD,
   ...ILLUMI,
   ...MUSHROOM,
+  ...FLOWER_CAP,
   ...NUT
 ]
 
+console.log(CRAFTS)
 export default CRAFTS

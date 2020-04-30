@@ -270,7 +270,7 @@ export default [
       quantity: 8
     }]
   }, {
-    name: 'Alfombra Cereza',
+    name: 'Alfombra Cerezas',
     image: 'RugOtherCherryM00.png',
     height: 1,
     width: 1,

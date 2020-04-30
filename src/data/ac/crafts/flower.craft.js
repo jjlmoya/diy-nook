@@ -113,7 +113,10 @@ export default [
     width: 1,
     category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.FLOWER,
-    materials: []
+    materials: [{
+      ...MATERIALS.HERB,
+      quantity: 10
+    }]
   }, {
     name: 'Mesa Viola',
     image: 'FtrFlowerTableS.png',

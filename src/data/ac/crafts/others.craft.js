@@ -80,7 +80,7 @@ export default [{
     quantity: 10
   }]
 }, {
-  name: 'Oso XL',
+  name: 'Papá Oso Gigante',
   image: 'FtrBearXL.png',
   height: 1,
   width: 1,
@@ -197,7 +197,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Librería Grande',
+  name: 'Librería Grande de Madera',
   image: 'FtrBookshelf.png',
   height: 1,
   width: 1,
@@ -332,7 +332,7 @@ export default [{
     quantity: 1
   }]
 }, {
-  name: 'Pato de Madera',
+  name: 'Señuelo para Patos',
   image: 'FtrDecoy.png',
   height: 1,
   width: 1,
@@ -354,7 +354,7 @@ export default [{
     quantity: 12
   }]
 }, {
-  name: 'Platos sin cocer',
+  name: 'Servicio de mesa de barro',
   image: 'FtrDishesUnglazed.png',
   height: 1,
   width: 1,
@@ -773,7 +773,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Sujeta Llaves',
+  name: 'Portallaves',
   image: 'FtrKeyhanger.png',
   height: 1,
   width: 1,
@@ -1243,7 +1243,7 @@ export default [{
     quantity: 3
   }]
 }, {
-  name: 'Pantalla de Celda',
+  name: 'Reja de Prisión',
   image: 'FtrScreenCage.png',
   height: 1,
   width: 1,
@@ -1670,7 +1670,7 @@ export default [{
     quantity: 1
   }]
 }, {
-  name: 'Banco de Madera',
+  name: 'Tronco para sentarse',
   image: 'FtrWoodBench.png',
   height: 1,
   width: 1,
@@ -1810,7 +1810,7 @@ export default [{
     quantity: 6
   }]
 }, {
-  name: 'Botas',
+  name: 'Escarpe',
   image: 'ShoesKneeKnightIron.png',
   height: 1,
   width: 1,

@@ -233,7 +233,7 @@ export default [
       quantity: 15
     }]
   }, {
-    name: 'Pared Sótano',
+    name: 'Pared Piedra',
     image: 'RoomTexWallBasement00.png',
     height: 1,
     width: 1,
@@ -436,7 +436,7 @@ export default [
     serie: SERIES.LOG,
     materials: []
   }, {
-    name: 'Pared Madera Flexible',
+    name: 'Pared Madera Mixta',
     image: 'RoomTexWallMixPlankWood00.png',
     height: 1,
     width: 1,

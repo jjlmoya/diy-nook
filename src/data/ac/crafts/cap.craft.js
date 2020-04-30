@@ -66,7 +66,7 @@ const CAP_APPLE = {
   }]
 }
 const CAP_CHERRY = {
-  name: 'Gorro Cereza',
+  name: 'Gorro Cerezas',
   image: 'CapHatCherry0.png',
   height: 1,
   width: 1,
@@ -138,173 +138,6 @@ const CAP_MASK_LEAF = {
   }]
 }
 
-const CAP_ANEMONE_1 = {
-  name: 'Guirnalda Anémona',
-  image: 'CapOrnamentAnemone1.png',
-  height: 1,
-  width: 1,
-  category: [CATEGORY.CLOTH, CATEGORY.CAP],
-  serie: SERIES.FLOWER,
-  materials: [
-    {
-      ...MATERIALS.WIND_WHITE,
-      quantity: 2
-    },
-    {
-      ...MATERIALS.WIND_RED,
-      quantity: 2
-    },
-    {
-      ...MATERIALS.WIND_ORANGE,
-      quantity: 2
-    }
-  ]
-}
-
-const CAP_ANEMONE_2 = {
-  name: 'Guirnalda Anémona 2',
-  image: 'CapOrnamentAnemone2.png',
-  height: 1,
-  width: 1,
-  category: [CATEGORY.CLOTH, CATEGORY.CAP],
-  serie: SERIES.FLOWER,
-  materials: [
-    {
-      ...MATERIALS.WIND_PINK,
-      quantity: 3
-    },
-    {
-      ...MATERIALS.WIND_BLUE,
-      quantity: 3
-    }]
-}
-
-const CAP_ANEMONE_3 = {
-  name: 'Guirnalda Anémona 3',
-  image: 'CapOrnamentAnemone3.png',
-  height: 1,
-  width: 1,
-  category: [CATEGORY.CLOTH, CATEGORY.CAP],
-  serie: SERIES.FLOWER,
-  materials: [
-    {
-      ...MATERIALS.WIND_PURPLE,
-      quantity: 6
-    }]
-}
-
-const CAP_COSMOS_1 = {
-  name: 'Guirnalda Cosmos',
-  image: 'CapOrnamentCosmos1.png',
-  height: 1,
-  width: 1,
-  category: [CATEGORY.CLOTH, CATEGORY.CAP],
-  serie: SERIES.FLOWER,
-  materials: [
-    {
-      ...MATERIALS.COSMOS_WHITE,
-      quantity: 2
-    },
-    {
-      ...MATERIALS.COSMOS_RED,
-      quantity: 2
-    },
-    {
-      ...MATERIALS.COSMOS_YELLOW,
-      quantity: 2
-    }]
-}
-
-const CAP_COSMOS_2 = {
-  name: 'Guirnalda Cosmos 2',
-  image: 'CapOrnamentCosmos2.png',
-  height: 1,
-  width: 1,
-  category: [CATEGORY.CLOTH, CATEGORY.CAP],
-  serie: SERIES.FLOWER,
-  materials: [
-    {
-      ...MATERIALS.COSMOS_PINK,
-      quantity: 3
-    },
-    {
-      ...MATERIALS.COSMOS_ORANGE,
-      quantity: 3
-    }]
-}
-
-const CAP_COSMOS_3 = {
-  name: 'Guirnalda Cosmos 3',
-  image: 'CapOrnamentCosmos3.png',
-  height: 1,
-  width: 1,
-  category: [CATEGORY.CLOTH, CATEGORY.CAP],
-  serie: SERIES.FLOWER,
-  materials: [
-    {
-      ...MATERIALS.COSMOS_BLACK,
-      quantity: 6
-    }]
-}
-
-const CAP_HYACINTH_1 = {
-  name: 'Guirnalda Jacintos',
-  image: 'CapOrnamentHyacinth1.png',
-  height: 1,
-  width: 1,
-  category: [CATEGORY.CLOTH, CATEGORY.CAP],
-  serie: SERIES.FLOWER,
-  materials: [
-    {
-      ...MATERIALS.JACINT_WHITE,
-      quantity: 2
-    },
-    {
-      ...MATERIALS.JACINT_RED,
-      quantity: 2
-    },
-    {
-      ...MATERIALS.JACINT_YELLOW,
-      quantity: 2
-    }]
-}
-
-const CAP_HYACINTH_2 = {
-  name: 'Guirnalda Jacintos 2',
-  image: 'CapOrnamentHyacinth2.png',
-  height: 1,
-  width: 1,
-  category: [CATEGORY.CLOTH, CATEGORY.CAP],
-  serie: SERIES.FLOWER,
-  materials: [
-    {
-      ...MATERIALS.JACINT_BLUE,
-      quantity: 2
-    },
-    {
-      ...MATERIALS.JACINT_ORANGE,
-      quantity: 2
-    },
-    {
-      ...MATERIALS.JACINT_PINK,
-      quantity: 2
-    }]
-}
-
-const CAP_HYACINTH_3 = {
-  name: 'Guirnalda Jacintos 3',
-  image: 'CapOrnamentHyacinth3.png',
-  height: 1,
-  width: 1,
-  category: [CATEGORY.CLOTH, CATEGORY.CAP],
-  serie: SERIES.FLOWER,
-  materials: [
-    {
-      ...MATERIALS.JACINT_PURPLE,
-      quantity: 6
-    }]
-}
-
 export default [
   CAP_COSTUME_SNOWBALL,
   CAP_COSTUME_STAR,
@@ -316,16 +149,7 @@ export default [
   CAP_PEACH,
   CAP_PEAR,
   CAP_SANDOGASA,
-  CAP_MASK_LEAF,
-  CAP_ANEMONE_1,
-  CAP_ANEMONE_2,
-  CAP_ANEMONE_3,
-  CAP_COSMOS_1,
-  CAP_COSMOS_2,
-  CAP_COSMOS_3,
-  CAP_HYACINTH_1,
-  CAP_HYACINTH_2,
-  CAP_HYACINTH_3
+  CAP_MASK_LEAF
 ]
 
 // TODO: Faltan Gorros de Flores
