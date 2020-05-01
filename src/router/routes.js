@@ -1,4 +1,5 @@
 
+import { openURL } from 'quasar'
 const routes = [
   {
     path: '/',
@@ -13,6 +14,13 @@ const routes = [
     path: '/about',
     name: 'about',
     component: () => import('pages/about.vue')
+  },
+  {
+    name: 'paypal',
+    path: '/paypal',
+    beforeEnter () {
+      openURL('https://www.paypal.com/donate/?token=H1hPwg6J1JPqGy-bfVHMN9R_LUXey5et0UjLTQlvIyizMvqtGB0NXoch2u4BkXGEA6H--W&country.x=ES&locale.x=ES')
+    }
   }
 ]
 
