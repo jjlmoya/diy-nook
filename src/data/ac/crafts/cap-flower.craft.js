@@ -141,7 +141,7 @@ export default [{
   }]
 },
 {
-  name: 'Guirnalda Jacinto Morada',
+  name: 'Guirnalda Jacinto Violeta',
   image: 'CapOrnamentHyacinth3.png',
   height: 1,
   width: 1,
