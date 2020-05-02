@@ -280,7 +280,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Pared Leña',
+    name: 'Pared leñera',
     image: 'RoomTexWallFireWood00.png',
     height: 1,
     width: 1,

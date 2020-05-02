@@ -33,7 +33,7 @@ export default [
     category: [CATEGORY.FURNITURE],
     serie: SERIES.FRUIT,
     materials: [{
-      ...MATERIALS.PEAR,
+      ...MATERIALS.PEACH,
       quantity: 10
     }, {
       ...MATERIALS.FLEXIBLE_WOOD,
@@ -61,7 +61,7 @@ export default [
     category: [CATEGORY.FURNITURE, CATEGORY.CHAIR],
     serie: SERIES.FRUIT,
     materials: [{
-      ...MATERIALS.PEAR,
+      ...MATERIALS.PEACH,
       quantity: 10
     }, {
       ...MATERIALS.WOOD,
@@ -233,7 +233,7 @@ export default [
     category: [CATEGORY.CLOTH, CATEGORY.ONE_PIECE],
     serie: SERIES.FRUIT,
     materials: [{
-      ...MATERIALS.PEAR,
+      ...MATERIALS.PEACH,
       quantity: 7
     }]
   }, {

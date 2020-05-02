@@ -40,7 +40,7 @@ export default [
       quantity: 2
     }]
   }, {
-    name: 'Lámpara de Jacinto',
+    name: 'Lámpara Jacinto',
     image: 'FtrFlowerLamp.png',
     height: 1,
     width: 1,

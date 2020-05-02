@@ -45,7 +45,7 @@ const BLOSSOM_BONSAI = {
 }
 
 const BLOSSOM_FLOWERS = {
-  name: 'Jarrón con flores cerezo',
+  name: 'Jarrón con flores de cerezo',
   image: 'FtrSakuraBranch.png',
   height: 1,
   width: 1,
