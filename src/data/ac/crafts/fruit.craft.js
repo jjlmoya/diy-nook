@@ -110,7 +110,7 @@ export default [
       quantity: 2
     }]
   }, {
-    name: 'Cadena Cereza',
+    name: 'Altavoz Cereza',
     image: 'FtrFruitsMusic.png',
     height: 1,
     width: 1,
@@ -193,7 +193,7 @@ export default [
       quantity: 6
     }]
   }, {
-    name: 'Top Pera',
+    name: 'Vestido Pera',
     image: 'TopsTexOnepieceAlineNPear0.png',
     height: 1,
     width: 1,

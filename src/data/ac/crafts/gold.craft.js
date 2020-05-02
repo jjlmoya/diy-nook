@@ -106,7 +106,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Armadura Dorada',
+    name: 'Armadura de Oro',
     image: 'TopsTexOnepieceOverallLPlatearmorGold.png',
     height: 1,
     width: 1,

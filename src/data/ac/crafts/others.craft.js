@@ -862,7 +862,7 @@ export default [{
     quantity: 10
   }]
 }, {
-  name: 'Microbiblioteca',
+  name: 'Punto intercambio de libros',
   image: 'FtrMicrolibrary.png',
   height: 1,
   width: 1,
@@ -1832,7 +1832,7 @@ export default [{
     quantity: 2
   }]
 }, {
-  name: 'Armadura',
+  name: 'Armadura de Hierro',
   image: 'TopsTexOnepieceOverallLPlatearmorIron.png',
   height: 1,
   width: 1,

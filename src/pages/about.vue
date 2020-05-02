@@ -13,10 +13,7 @@
             <p>Espero que en esta situación estéis todos lo mejor posible, mi apoyo a todos desde aquí y espero que este pequeño grano de arena os sirve de entretenimiento o ayuda.</p>
             <p>En mis planes está subsistir y seguir desarrollando esta y otras aplicaciones, si estás en una situación que os resulte fácil aportar os estaré eternamente agradecido.</p>
           </div>
-          <a
-            @click="open('https://www.paypal.com/donate/?token=H1hPwg6J1JPqGy-bfVHMN9R_LUXey5et0UjLTQlvIyizMvqtGB0NXoch2u4BkXGEA6H--W&country.x=ES&locale.x=ES')"
-                :to="{ path: '/paypal'}"
-                class="form" >
+          <a @click="open('https://www.paypal.me/jjlmoya')" class="form">
             <img alt="" border="0" :src="'./statics/beggar.png'" />
             <span>Donar</span>
           </a>

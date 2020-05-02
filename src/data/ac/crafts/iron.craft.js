@@ -236,7 +236,7 @@ export default [
       quantity: 12
     }]
   }, {
-    name: 'Mesa Universidad',
+    name: 'Mesa Camarera Universidad',
     image: 'FtrIronwoodTableM.png',
     height: 1,
     width: 1,

@@ -40,7 +40,7 @@ export default [
       quantity: 2
     }]
   }, {
-    name: 'Placa Leña',
+    name: 'Placa de Leña',
     image: 'FtrDoorOrnamentLog.png',
     height: 1,
     width: 1,
@@ -48,7 +48,7 @@ export default [
     serie: SERIES.LOG,
     materials: [{
       ...MATERIALS.WOOD,
-      quantity: 6
+      quantity: 2
     }, {
       ...MATERIALS.ROSE_PINK,
       quantity: 1
@@ -110,7 +110,7 @@ export default [
       quantity: 10
     }]
   }, {
-    name: 'Corona de Ramas',
+    name: 'Corona Ramas',
     image: 'FtrDoorOrnamentWreathBranch.png',
     height: 1,
     width: 1,

@@ -65,7 +65,7 @@ export default [
       quantity: 60
     }]
   }, {
-    name: 'Mesa de Madera Natual',
+    name: 'Mesa de Madera Natural',
     image: 'FtrGardenTableNatural.png',
     height: 1,
     width: 1,
@@ -104,7 +104,10 @@ export default [
       quantity: 3
     }, {
       ...MATERIALS.COSMOS_RED,
-      quantity: 2
+      quantity: 3
+    }, {
+      ...MATERIALS.ROSE_YELLOW,
+      quantity: 3
     }, {
       ...MATERIALS.WOOD,
       quantity: 8

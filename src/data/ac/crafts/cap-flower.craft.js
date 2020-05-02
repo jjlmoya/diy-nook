@@ -198,7 +198,7 @@ export default [{
   }]
 },
 {
-  name: 'Guirnalda Violeta',
+  name: 'Guirnalda Viola',
   image: 'CapOrnamentPansy1.png',
   height: 1,
   width: 1,
@@ -231,7 +231,7 @@ export default [{
   }]
 },
 {
-  name: 'Guirnalda Violeta Rara',
+  name: 'Guirnalda Violeta Violeta',
   image: 'CapOrnamentPansy3.png',
   height: 1,
   width: 1,

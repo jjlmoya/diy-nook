@@ -443,18 +443,18 @@ export default [
     category: [CATEGORY.WALL],
     serie: SERIES.BLOCK,
     materials: [{
-      ...MATERIALS.FLEXIBLE_WOOD,
+      ...MATERIALS.WOOD,
       quantity: 15
     }]
   }, {
-    name: 'Pared Madera Rígida',
+    name: 'Pared Madera Mixta Oscura',
     image: 'RoomTexWallMixPlankWood01.png',
     height: 1,
     width: 1,
     category: [CATEGORY.WALL],
     serie: SERIES.LOG,
     materials: [{
-      ...MATERIALS.SOLID_WOOD,
+      ...MATERIALS.WOOD,
       quantity: 15
     }]
   }, {

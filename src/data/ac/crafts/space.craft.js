@@ -55,7 +55,7 @@ export default [
     }]
   },
   {
-    name: 'Nave Tripulada',
+    name: 'Modulo espacial tripulado',
     image: 'FtrSpacecraft.png',
     height: 1,
     width: 1,
