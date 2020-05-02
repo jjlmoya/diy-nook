@@ -24,7 +24,7 @@
             <p>Gracias también a los <strong>consejos de UX de Albert_90 y principio de la idea de Mario</strong></p>
             <p>Y en especial un agradecimiento profundo a <strong>Pesadilla, webmaster de <a @click="open('https://acspainweb.es/')">AC Spain Web</a>
             </strong> por todas las horas dedicadas a la información, imágenes, ideas, promoción y un largo, etc.</p>
-             <p>A <strong>Seru, SrKyzher y Kirei</strong> por sus 300 correcciones que han subido la calidad y la exactitud.</p>
+             <p>A <strong>Seru, SrKyzher, mlro1986 y Kirei</strong> por sus 300 correcciones que han subido la calidad y la exactitud.</p>
             <p>A <strong>Nintendo</strong> por su juego y por sus assets.</p>
           </div>
     </div>
