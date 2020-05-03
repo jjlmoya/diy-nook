@@ -406,7 +406,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Pared Biblioteca Clásica',
+    name: 'Pared Biblioteca de Clásicos',
     image: 'RoomTexWallLibrary00.png',
     height: 1,
     width: 1,

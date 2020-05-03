@@ -110,11 +110,11 @@ export default [
       quantity: 8
     }]
   }, {
-    name: 'Kit Acampada Bamboo',
+    name: 'Kit Acampada Bambú',
     image: 'FtrBambooLunch.png',
     height: 1,
     width: 1,
-    category: [CATEGORY.WALL_OBJECT],
+    category: [CATEGORY.TABLE_OBJECT],
     serie: SERIES.BAMBOO,
     materials: [{
       ...MATERIALS.BAMBU,

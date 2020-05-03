@@ -81,7 +81,7 @@ export default [
       quantity: 3
     }]
   }, {
-    name: 'Gato de la suerte Dorado',
+    name: 'Gato de la suerte de Oro',
     image: 'FtrManekinekoGold.png',
     height: 1,
     width: 1,
@@ -89,7 +89,7 @@ export default [
     serie: SERIES.GOLD,
     materials: [{
       ...MATERIALS.GOLD_NUGGET,
-      quantity: 3
+      quantity: 2
     }, {
       ...MATERIALS.FURNITURE('Gato de la Suerte'),
       quantity: 1
