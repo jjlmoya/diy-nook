@@ -3,5 +3,10 @@
 
 export default {
   failed: 'Action failed',
-  success: 'Action was successful'
+  success: 'Action was successful',
+  WhatLookingFor: 'What do you look for?',
+  serieBambu: {
+    BagBackpackBasket0: 'Basket Pack',
+    FtrBambooBall: 'Bamboo Sphere'
+  }
 }
