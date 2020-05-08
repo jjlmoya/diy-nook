@@ -63,6 +63,4 @@ const CRAFTS = [
   ...FLOWER_CAP,
   ...NUT
 ]
-
-console.log(CRAFTS)
 export default CRAFTS

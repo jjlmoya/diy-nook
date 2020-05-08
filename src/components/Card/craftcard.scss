@@ -59,6 +59,35 @@
     width: 100%;
   }
 
+  &.is-menu {
+    .craft-card__menu-options {
+      display: block;
+    }
+  }
+  &__menu {
+    position: absolute;
+    width: 15px;
+    right: 0;
+    bottom: 0;
+    margin: 5px;
+    cursor: pointer;
+    &-options {
+      display: none;
+      position: absolute;
+      background-color: #dfd6ad;
+      right: 20px;
+      bottom: 25px;
+      padding: 5px;
+      border: 5px solid white;
+      border-radius: 5px;
+      width: 100px;
+      .item {
+        padding: 2px;
+      }
+    }
+  }
+
+
   &__materials {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -67,7 +67,6 @@ export default {
       document.body.classList.toggle('overflow', this.activeSeries || this.activeCategories)
     },
     toggleOwneds () {
-      console.log('hola')
       this.activeOwneds = !this.activeOwneds
       document.body.classList.toggle('own-filter', this.activeOwneds)
     }
