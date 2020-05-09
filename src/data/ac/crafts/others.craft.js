@@ -1,6 +1,9 @@
 import MATERIALS from '../materials.data'
 import SERIES from '../series.data'
 import CATEGORY from '../category.data'
+import {
+  i18n
+} from '../../../boot/i18n'
 
 export default [{
   name: 'Falda de Paja',
@@ -449,7 +452,7 @@ export default [{
     quantity: 5
   }]
 }, {
-  name: 'Pila de hojas verdes',
+  name: i18n.t('series.bambu.FtrFallenleavesGreen'),
   image: 'FtrFallenleavesGreen.png',
   height: 1,
   width: 1,
@@ -1265,7 +1268,7 @@ export default [{
     quantity: 24
   }]
 }, {
-  name: 'Fuente de Bambú',
+  name: i18n.t('series.bambu.FtrShishiodoshi'),
   image: 'FtrShishiodoshi.png',
   height: 1,
   width: 1,

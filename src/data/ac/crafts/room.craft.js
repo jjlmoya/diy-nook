@@ -1,6 +1,9 @@
 import MATERIALS from '../materials.data'
 import SERIES from '../series.data'
 import CATEGORY from '../category.data'
+import {
+  i18n
+} from '../../../boot/i18n'
 
 export default [
   {
@@ -21,7 +24,7 @@ export default [
       quantity: 5
     }]
   }, {
-    name: 'Suelo Bambú',
+    name: i18n.t('series.bambu.RoomTexFloorBamboo00'),
     image: 'RoomTexFloorBamboo00.png',
     height: 1,
     width: 1,
@@ -222,7 +225,7 @@ export default [
       quantity: 20
     }]
   }, {
-    name: 'Pared Bambú',
+    name: i18n.t('series.bambu.RoomTexWallBamboo00'),
     image: 'RoomTexWallBamboo00.png',
     height: 1,
     width: 1,
@@ -266,7 +269,7 @@ export default [
       quantity: 20
     }]
   }, {
-    name: 'Pared Bosque Bambú',
+    name: i18n.t('series.bambu.RoomTexWallChikurin00'),
     image: 'RoomTexWallChikurin00.png',
     height: 1,
     width: 1,

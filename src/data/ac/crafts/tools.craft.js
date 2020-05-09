@@ -1,6 +1,9 @@
 import MATERIALS from '../materials.data'
 import SERIES from '../series.data'
 import CATEGORY from '../category.data'
+import {
+  i18n
+} from '../../../boot/i18n'
 
 const WEAK_AXE = {
   name: 'Hacha Endeble',
@@ -341,7 +344,7 @@ export default [
       quantity: 1
     }]
   }, {
-    name: 'Varita Bambú',
+    name: i18n.t('series.bambu.ToolStickBamboo'),
     image: 'ToolStickBamboo.png',
     height: 1,
     width: 1,
